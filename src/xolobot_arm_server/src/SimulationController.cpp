@@ -164,7 +164,7 @@ void SimulationController::generaAleatorios(){
         if(i==1 && colisionDetectada){
             msg.data = jointValues[1];
         }
-        // jnt_hombro_biceps (índice 2): baja primero, solo una vez
+        // jnt_hombro_biceps
         else if(i == 2 && brazoPosicionado && !colisionDetectada && !hombroBicepsPos){
             msg.data = -1.0;
             hombroBicepsPos = true;
@@ -172,19 +172,19 @@ void SimulationController::generaAleatorios(){
         else if (i == 2 && hombroBicepsPos){
             msg.data = -1.0;
         }
-        // jnt_codo_antebrazo (índice 4): siempre bajado
+        // jnt_codo_antebrazo
         else if(i == 4){
             msg.data = -3.1416;
         }
 
-        // jnt_biceps_codo (índice 3): inicia en 90° y luego baja si hombro listo
+        // jnt_biceps_codo
         else if(i == 3 ){
             if (!brazoPosicionado){
-                bicepMov = 1.5708;  // Inicia en 90°
+                bicepMov = 1.5708;
                 brazoPosicionado = true;
             }
             if (brazoPosicionado && hombroBicepsPos && !colisionDetectada) {
-                bicepMov -= 0.05;  // Baja suavemente
+                bicepMov -= 0.05;
                 if (bicepMov < -1.0) bicepMov = -1.0;
             }
             msg.data = bicepMov;
