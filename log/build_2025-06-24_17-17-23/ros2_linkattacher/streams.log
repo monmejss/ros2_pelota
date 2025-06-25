@@ -1,0 +1,140 @@
+[0.033s] Invoking command in '/home/monica/ros2_pelota/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/monica/ros2_pelota/src/ros2_linkattacher -DCMAKE_INSTALL_PREFIX=/home/monica/ros2_pelota/install/ros2_linkattacher
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.414s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.691s] -- Detecting C compiler ABI info - done
+[0.718s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.720s] -- Detecting C compile features
+[0.722s] -- Detecting C compile features - done
+[0.733s] -- Detecting CXX compiler ABI info
+[1.023s] -- Detecting CXX compiler ABI info - done
+[1.050s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.051s] -- Detecting CXX compile features
+[1.053s] -- Detecting CXX compile features - done
+[1.061s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.603s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.929s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.208s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[2.395s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.449s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.371s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.381s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.840s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.779s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.784s] -- Checking for module 'bullet>=2.82'
+[4.847s] --   Found bullet, version 3.05
+[5.207s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.371s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.444s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.074s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.117s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.137s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.173s] -- Searching for dependencies of ignition-math6
+[6.178s] -- Looking for OGRE...
+[6.181s] -- OGRE_PREFIX_WATCH changed.
+[6.197s] -- Checking for module 'OGRE'
+[6.238s] --   Found OGRE, version 1.9.0
+[6.348s] -- Found Ogre Ghadamon (1.9.0)
+[6.382s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.408s] -- Looking for OGRE_Paging...
+[6.427s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.429s] -- Looking for OGRE_Terrain...
+[6.448s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.449s] -- Looking for OGRE_Property...
+[6.474s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.475s] -- Looking for OGRE_RTShaderSystem...
+[6.496s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.496s] -- Looking for OGRE_Volume...
+[6.515s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.516s] -- Looking for OGRE_Overlay...
+[6.535s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.033s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.043s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.045s] -- Searching for dependencies of ignition-transport8
+[7.107s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.138s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.155s] -- Checking for module 'libzmq >= 4'
+[7.202s] --   Found libzmq , version 4.3.4
+[7.326s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.345s] -- Checking for module 'uuid'
+[7.391s] --   Found uuid, version 2.37.2
+[7.509s] -- Found UUID: TRUE  
+[7.516s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.521s] -- Searching for dependencies of ignition-msgs5
+[7.589s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.611s] -- Checking for module 'tinyxml2'
+[7.652s] --   Found tinyxml2, version 9.0.0
+[7.786s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.796s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.799s] -- Searching for dependencies of ignition-common3
+[7.801s] -- Looking for dlfcn.h - found
+[7.804s] -- Looking for libdl - found
+[7.808s] -- Found DL: TRUE  
+[7.845s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[7.848s] -- Searching for <ignition-common3> component [graphics]
+[7.857s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.859s] -- Searching for dependencies of ignition-common3-graphics
+[7.861s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.874s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.874s] -- Searching for dependencies of ignition-fuel_tools4
+[8.161s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.192s] -- Checking for module 'jsoncpp'
+[8.240s] --   Found jsoncpp, version 1.9.5
+[8.358s] -- Found JSONCPP: TRUE  
+[8.384s] -- Checking for module 'libzip'
+[8.434s] --   Found libzip, version 1.7.3
+[8.549s] -- Found ZIP: TRUE  
+[8.550s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.551s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.552s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.568s] -- Gazebo version: 11.10
+[8.570s] -- Checking for module 'tbb'
+[8.629s] --   Found tbb, version 2021.5.0
+[8.780s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/iron/share/gazebo_msgs/cmake)
+[11.265s] -- Found linkattacher_msgs: 0.0.0 (/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[11.572s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.580s] -- Configured cppcheck include dirs: /home/monica/ros2_pelota/src/ros2_linkattacher/include
+[11.580s] -- Configured cppcheck exclude dirs and/or files: 
+[11.583s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.583s] -- Configured cpplint exclude dirs and/or files: 
+[11.586s] -- Added test 'lint_cmake' to check CMake code style
+[11.591s] -- Added test 'uncrustify' to check C / C++ code style
+[11.591s] -- Configured uncrustify additional arguments: 
+[11.593s] -- Added test 'xmllint' to check XML markup files
+[11.599s] -- Configuring done
+[11.898s] -- Generating done
+[11.919s] -- Build files have been written to: /home/monica/ros2_pelota/build/ros2_linkattacher
+[11.958s] Invoked command in '/home/monica/ros2_pelota/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/monica/ros2_pelota/src/ros2_linkattacher -DCMAKE_INSTALL_PREFIX=/home/monica/ros2_pelota/install/ros2_linkattacher
+[11.961s] Invoking command in '/home/monica/ros2_pelota/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/monica/ros2_pelota/build/ros2_linkattacher -- -j2 -l2
+[12.149s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_link_attacher.dir/src/gazebo_link_attacher.cpp.o[0m
+[63.001s] [100%] [32m[1mLinking CXX shared library libgazebo_link_attacher.so[0m
+[68.156s] [100%] Built target gazebo_link_attacher
+[68.313s] Invoked command in '/home/monica/ros2_pelota/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/monica/ros2_pelota/build/ros2_linkattacher -- -j2 -l2
+[68.390s] Invoking command in '/home/monica/ros2_pelota/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/monica/ros2_pelota/build/ros2_linkattacher
+[68.431s] -- Install configuration: ""
+[68.433s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.sh
+[68.437s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.dsv
+[68.438s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/lib/libgazebo_link_attacher.so
+[68.455s] -- Set runtime path of "/home/monica/ros2_pelota/install/ros2_linkattacher/lib/libgazebo_link_attacher.so" to ""
+[68.455s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/package_run_dependencies/ros2_linkattacher
+[68.457s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/parent_prefix_path/ros2_linkattacher
+[68.458s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.sh
+[68.460s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.dsv
+[68.461s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.sh
+[68.462s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.dsv
+[68.464s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.bash
+[68.465s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.sh
+[68.466s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.zsh
+[68.467s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.dsv
+[68.468s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv
+[68.474s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/packages/ros2_linkattacher
+[68.477s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ament_cmake_export_libraries-extras.cmake
+[68.478s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig.cmake
+[68.479s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig-version.cmake
+[68.486s] -- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.xml
+[68.503s] Invoked command in '/home/monica/ros2_pelota/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/monica/ros2_pelota/build/ros2_linkattacher

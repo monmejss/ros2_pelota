@@ -1,0 +1,179 @@
+[0.044s] Invoking command in '/home/monica/ros2_pelota/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/linkattacher_msgs -- -j2 -l2
+[0.211s] [  2%] Built target linkattacher_msgs__rosidl_generator_type_description
+[0.436s] [  2%] Built target ament_cmake_python_copy_linkattacher_msgs
+[0.502s] [ 20%] Built target linkattacher_msgs__rosidl_generator_c
+[0.567s] [ 22%] Built target linkattacher_msgs__cpp
+[1.242s] running egg_info
+[1.247s] writing linkattacher_msgs.egg-info/PKG-INFO
+[1.247s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[1.248s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[1.257s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.259s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.328s] [ 22%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.390s] [ 31%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[1.452s] [ 40%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[1.506s] [ 50%] Built target linkattacher_msgs__rosidl_typesupport_c
+[1.574s] [ 59%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[1.649s] [ 68%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[1.710s] [ 77%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[1.759s] [ 77%] Built target linkattacher_msgs
+[1.821s] [ 79%] Built target linkattacher_msgs__py
+[1.885s] [ 86%] Built target linkattacher_msgs__rosidl_generator_py
+[1.949s] [ 90%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.009s] [ 95%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[2.070s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[2.109s] Invoked command in '/home/monica/ros2_pelota/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/linkattacher_msgs -- -j2 -l2
+[2.116s] Invoking command in '/home/monica/ros2_pelota/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/linkattacher_msgs
+[2.138s] -- Install configuration: ""
+[2.138s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv
+[2.138s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[2.138s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[2.145s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[2.145s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.json
+[2.146s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.json
+[2.146s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.146s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.146s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[2.148s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[2.148s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.148s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[2.148s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c
+[2.153s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[2.154s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[2.154s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[2.154s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[2.154s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[2.154s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__description.c
+[2.156s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c
+[2.157s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[2.158s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__description.c
+[2.158s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[2.158s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[2.158s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.161s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.162s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[2.162s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[2.162s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.165s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[2.165s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.167s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.167s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.167s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[2.170s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[2.170s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[2.172s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[2.173s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[2.173s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.173s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[2.180s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[2.181s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.181s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.181s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[2.181s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[2.182s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.182s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[2.182s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[2.182s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[2.182s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[2.185s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[2.185s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[2.187s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.188s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.188s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.188s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps
+[2.190s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[2.190s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[2.191s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[2.191s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.191s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.191s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[2.191s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[2.193s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[2.193s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp
+[2.194s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[2.194s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[2.194s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp
+[2.194s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[2.196s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[2.196s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[2.196s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[2.196s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info
+[2.197s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.197s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.198s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.198s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.198s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs
+[2.199s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[2.199s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[2.200s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.200s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv
+[2.200s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_detach_link.py
+[2.201s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_attach_link_s.c
+[2.201s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/__init__.py
+[2.202s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_attach_link.py
+[2.203s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_detach_link_s.c
+[2.203s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.203s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/__init__.py
+[2.203s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.203s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.204s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.309s] Listing '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs'...
+[2.309s] Listing '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv'...
+[2.332s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.334s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.334s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.336s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[2.339s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[2.340s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[2.340s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[2.340s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[2.341s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[2.341s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[2.344s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[2.344s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[2.344s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[2.345s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[2.345s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[2.345s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[2.346s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[2.346s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[2.346s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[2.347s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[2.347s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[2.348s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[2.349s] -- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[2.350s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[2.352s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[2.353s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.353s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.356s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.357s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.357s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.358s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[2.359s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.360s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[2.361s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.362s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.365s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.366s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.366s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[2.367s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.369s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[2.369s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.369s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[2.370s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.370s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.371s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.371s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.372s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.372s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.373s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[2.373s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[2.374s] -- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[2.383s] Invoked command in '/home/monica/ros2_pelota/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/linkattacher_msgs

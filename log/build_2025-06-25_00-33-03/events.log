@@ -1,0 +1,1341 @@
+[0.000000] (-) TimerEvent: {}
+[0.001582] (linkattacher_msgs) JobQueued: {'identifier': 'linkattacher_msgs', 'dependencies': OrderedDict()}
+[0.001859] (xolobot_arm) JobQueued: {'identifier': 'xolobot_arm', 'dependencies': OrderedDict()}
+[0.001969] (xolobot_control) JobQueued: {'identifier': 'xolobot_control', 'dependencies': OrderedDict()}
+[0.002062] (ros2_linkattacher) JobQueued: {'identifier': 'ros2_linkattacher', 'dependencies': OrderedDict([('linkattacher_msgs', '/home/monica/ros2_pelota/install/linkattacher_msgs')])}
+[0.002287] (xolobot_arm_server) JobQueued: {'identifier': 'xolobot_arm_server', 'dependencies': OrderedDict([('linkattacher_msgs', '/home/monica/ros2_pelota/install/linkattacher_msgs')])}
+[0.004338] (linkattacher_msgs) JobStarted: {'identifier': 'linkattacher_msgs'}
+[0.053239] (xolobot_arm) JobStarted: {'identifier': 'xolobot_arm'}
+[0.094654] (-) TimerEvent: {}
+[0.110993] (linkattacher_msgs) JobProgress: {'identifier': 'linkattacher_msgs', 'progress': 'cmake'}
+[0.115255] (linkattacher_msgs) JobProgress: {'identifier': 'linkattacher_msgs', 'progress': 'build'}
+[0.119314] (linkattacher_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monica/ros2_pelota/build/linkattacher_msgs', '--', '-j2', '-l2'], 'cwd': '/home/monica/ros2_pelota/build/linkattacher_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/linkattacher_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[0.148378] (xolobot_arm) JobProgress: {'identifier': 'xolobot_arm', 'progress': 'cmake'}
+[0.163608] (xolobot_arm) JobProgress: {'identifier': 'xolobot_arm', 'progress': 'build'}
+[0.172680] (xolobot_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monica/ros2_pelota/build/xolobot_arm', '--', '-j2', '-l2'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_arm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[0.197296] (-) TimerEvent: {}
+[0.301469] (-) TimerEvent: {}
+[0.407310] (-) TimerEvent: {}
+[0.511354] (-) TimerEvent: {}
+[0.614692] (-) TimerEvent: {}
+[0.642894] (xolobot_arm) CommandEnded: {'returncode': 0}
+[0.655003] (xolobot_arm) JobProgress: {'identifier': 'xolobot_arm', 'progress': 'install'}
+[0.714872] (-) TimerEvent: {}
+[0.736763] (linkattacher_msgs) StdoutLine: {'line': b'[  2%] Built target linkattacher_msgs__rosidl_generator_type_description\n'}
+[0.744462] (xolobot_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monica/ros2_pelota/build/xolobot_arm'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_arm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[0.819301] (xolobot_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.819832] (-) TimerEvent: {}
+[0.820139] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/launch\n'}
+[0.823858] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/launch/xolobot_arm_control.launch.py\n'}
+[0.825648] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/worlds\n'}
+[0.827049] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/worlds/coca_levitando.world\n'}
+[0.832116] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models\n'}
+[0.832478] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/xolobot.urdf\n'}
+[0.832755] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/model.config\n'}
+[0.833028] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria\n'}
+[0.838804] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/objeto.sdf\n'}
+[0.842569] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/model.config\n'}
+[0.843741] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/objeto2.sdf\n'}
+[0.845287] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/soporte.sdf\n'}
+[0.845581] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/soporte2.sdf\n'}
+[0.851472] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures\n'}
+[0.851852] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/metal.material\n'}
+[0.852127] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images\n'}
+[0.856446] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/metal-rosa.jpg\n'}
+[0.856763] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/metal-hoyos.jpg\n'}
+[0.857037] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/blue-metal.jpg\n'}
+[0.863177] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/rose-gold.jpg\n'}
+[0.863521] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/piso-metal-barras.jpg\n'}
+[0.863798] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/piso-metal-blanco.jpg\n'}
+[0.864070] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/model.config\n'}
+[0.872636] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/xolobot.material\n'}
+[0.872964] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/xolobot_arm.sdf\n'}
+[0.874276] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes\n'}
+[0.874579] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_2.dae\n'}
+[0.874851] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq_2.dae\n'}
+[0.883641] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_juntos.dae\n'}
+[0.883944] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_der.dae\n'}
+[0.884431] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_izq.dae\n'}
+[0.884763] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/banda.blend\n'}
+[0.885044] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_juntos_nuevo.dae\n'}
+[0.888279] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izqprueba.dae\n'}
+[0.889714] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq_bak.dae\n'}
+[0.890004] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/mono.dae\n'}
+[0.892680] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_alto.dae\n'}
+[0.892998] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq_colision.dae\n'}
+[0.893307] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_alto_colision.dae\n'}
+[0.893645] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/model.config\n'}
+[0.893922] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/alien.dae\n'}
+[0.897927] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq.dae\n'}
+[0.901614] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq.dae\n'}
+[0.901908] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_izq_colision.dae\n'}
+[0.904477] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup\n'}
+[0.907092] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_2.dae\n'}
+[0.907527] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_juntos.dae\n'}
+[0.907809] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_der.dae\n'}
+[0.908081] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_izq.dae\n'}
+[0.908439] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_juntos_nuevo.dae\n'}
+[0.908740] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/hombro_alto.dae\n'}
+[0.911441] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/antebrazo_mano_izq.dae\n'}
+[0.914647] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/codo_izq.dae\n'}
+[0.914937] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/hombro_bajo.dae\n'}
+[0.915226] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos\n'}
+[0.915518] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice.blend1\n'}
+[0.915794] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_1.dae\n'}
+[0.916067] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.blend\n'}
+[0.923043] (-) TimerEvent: {}
+[0.925601] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_2.dae\n'}
+[0.926096] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial.blend\n'}
+[0.929527] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.blend1\n'}
+[0.929851] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_2.dae\n'}
+[0.930126] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_1.dae\n'}
+[0.934888] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique.blend\n'}
+[0.935231] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.blend1\n'}
+[0.935530] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.dae\n'}
+[0.935811] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_1.dae\n'}
+[0.936089] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.dae\n'}
+[0.942671] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_3.dae\n'}
+[0.943003] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/mano_completa.blend\n'}
+[0.945383] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique.blend1\n'}
+[0.945696] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.blend\n'}
+[0.945978] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular.blend1\n'}
+[0.949508] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.blend1\n'}
+[0.949864] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.blend\n'}
+[0.950900] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.dae\n'}
+[0.954825] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular.blend\n'}
+[0.956351] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice.blend\n'}
+[0.956683] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/mano_completa.blend1\n'}
+[0.956964] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_3.dae\n'}
+[0.965782] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_2.dae\n'}
+[0.966200] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial.blend1\n'}
+[0.966515] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_3.dae\n'}
+[0.966792] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_1_izq.dae\n'}
+[0.967066] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_3.dae\n'}
+[0.979561] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_bajo.dae\n'}
+[0.979995] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos\n'}
+[0.980315] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_2.dae\n'}
+[0.980610] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_1_izq_colision.dae\n'}
+[0.981320] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3_colision.dae\n'}
+[0.987431] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice.blend1\n'}
+[0.987729] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_3_colision.dae\n'}
+[0.988006] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_3_colision.dae\n'}
+[0.999554] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_1.dae\n'}
+[0.999896] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2_colision.dae\n'}
+[1.000223] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.blend\n'}
+[1.000524] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_2.dae\n'}
+[1.000803] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_3_colision.dae\n'}
+[1.001076] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial.blend\n'}
+[1.005474] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.blend1\n'}
+[1.006647] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_2.dae\n'}
+[1.006931] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_1.dae\n'}
+[1.007824] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique.blend\n'}
+[1.013572] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_1_colision.dae\n'}
+[1.013863] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.blend1\n'}
+[1.014135] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.dae\n'}
+[1.016060] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_1.dae\n'}
+[1.016410] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_1_colision.dae\n'}
+[1.016692] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1_colision.dae\n'}
+[1.016968] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.dae\n'}
+[1.018837] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_3_colision.dae\n'}
+[1.019185] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_1_colision.dae\n'}
+[1.019478] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_3.dae\n'}
+[1.019753] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_1_izq.dae\n'}
+[1.025713] (-) TimerEvent: {}
+[1.026847] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/mano_completa.blend\n'}
+[1.027383] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique.blend1\n'}
+[1.027662] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.blend\n'}
+[1.027933] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_2_colision.dae\n'}
+[1.032349] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular.blend1\n'}
+[1.032761] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_2_colision.dae\n'}
+[1.033040] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.blend1\n'}
+[1.036338] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_3.dae\n'}
+[1.037733] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.blend\n'}
+[1.038009] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.dae\n'}
+[1.043566] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular.blend\n'}
+[1.043910] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice.blend\n'}
+[1.045287] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/mano_completa.blend1\n'}
+[1.047616] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_3.dae\n'}
+[1.048419] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_2.dae\n'}
+[1.048895] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial.blend1\n'}
+[1.049214] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_2_colision.dae\n'}
+[1.049514] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_2_colision.dae\n'}
+[1.049792] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_3.dae\n'}
+[1.050068] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_1_izq.dae\n'}
+[1.055794] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq_tuercas.dae\n'}
+[1.056120] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_bajo_colision.dae\n'}
+[1.060813] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_3.dae\n'}
+[1.061108] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/banda_terminada.blend\n'}
+[1.065104] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/palma.dae\n'}
+[1.065451] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/package_run_dependencies/xolobot_arm\n'}
+[1.065733] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/parent_prefix_path/xolobot_arm\n'}
+[1.066006] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/ament_prefix_path.sh\n'}
+[1.070106] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/ament_prefix_path.dsv\n'}
+[1.070440] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/path.sh\n'}
+[1.073128] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/path.dsv\n'}
+[1.073828] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.bash\n'}
+[1.074111] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.sh\n'}
+[1.076114] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.zsh\n'}
+[1.076427] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.dsv\n'}
+[1.076705] (xolobot_arm) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.dsv\n'}
+[1.076979] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/packages/xolobot_arm\n'}
+[1.082080] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/cmake/xolobot_armConfig.cmake\n'}
+[1.084693] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/cmake/xolobot_armConfig-version.cmake\n'}
+[1.085005] (xolobot_arm) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.xml\n'}
+[1.089262] (xolobot_arm) CommandEnded: {'returncode': 0}
+[1.092321] (linkattacher_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_linkattacher_msgs\n'}
+[1.133364] (-) TimerEvent: {}
+[1.164449] (xolobot_arm) JobEnded: {'identifier': 'xolobot_arm', 'rc': 0}
+[1.165761] (xolobot_control) JobStarted: {'identifier': 'xolobot_control'}
+[1.238278] (-) TimerEvent: {}
+[1.258000] (xolobot_control) JobProgress: {'identifier': 'xolobot_control', 'progress': 'cmake'}
+[1.266259] (xolobot_control) JobProgress: {'identifier': 'xolobot_control', 'progress': 'build'}
+[1.278361] (xolobot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monica/ros2_pelota/build/xolobot_control', '--', '-j2', '-l2'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[1.344294] (-) TimerEvent: {}
+[1.370648] (linkattacher_msgs) StdoutLine: {'line': b'[ 20%] Built target linkattacher_msgs__rosidl_generator_c\n'}
+[1.444922] (-) TimerEvent: {}
+[1.544401] (linkattacher_msgs) StdoutLine: {'line': b'[ 22%] Built target linkattacher_msgs__cpp\n'}
+[1.544897] (-) TimerEvent: {}
+[1.651289] (-) TimerEvent: {}
+[1.718687] (xolobot_control) CommandEnded: {'returncode': 0}
+[1.737395] (xolobot_control) JobProgress: {'identifier': 'xolobot_control', 'progress': 'install'}
+[1.737609] (xolobot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monica/ros2_pelota/build/xolobot_control'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[1.755311] (-) TimerEvent: {}
+[1.844330] (xolobot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.844851] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/config\n'}
+[1.845134] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/config/xolobot_control.yaml\n'}
+[1.850295] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/launch\n'}
+[1.850590] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/launch/xolobot_control.launch.py\n'}
+[1.850866] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/ament_index/resource_index/package_run_dependencies/xolobot_control\n'}
+[1.856228] (-) TimerEvent: {}
+[1.856912] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/ament_index/resource_index/parent_prefix_path/xolobot_control\n'}
+[1.863413] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/environment/ament_prefix_path.sh\n'}
+[1.864674] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/environment/ament_prefix_path.dsv\n'}
+[1.864963] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/environment/path.sh\n'}
+[1.872096] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/environment/path.dsv\n'}
+[1.872451] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/local_setup.bash\n'}
+[1.872732] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/local_setup.sh\n'}
+[1.873006] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/local_setup.zsh\n'}
+[1.877552] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/local_setup.dsv\n'}
+[1.877879] (xolobot_control) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.dsv\n'}
+[1.884183] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/ament_index/resource_index/packages/xolobot_control\n'}
+[1.884679] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/cmake/xolobot_controlConfig.cmake\n'}
+[1.884985] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/cmake/xolobot_controlConfig-version.cmake\n'}
+[1.889568] (xolobot_control) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.xml\n'}
+[1.903366] (xolobot_control) CommandEnded: {'returncode': 0}
+[1.958543] (-) TimerEvent: {}
+[2.063305] (xolobot_control) JobEnded: {'identifier': 'xolobot_control', 'rc': 0}
+[2.064655] (-) TimerEvent: {}
+[2.165793] (-) TimerEvent: {}
+[2.269283] (-) TimerEvent: {}
+[2.370299] (-) TimerEvent: {}
+[2.473275] (-) TimerEvent: {}
+[2.575443] (-) TimerEvent: {}
+[2.678027] (-) TimerEvent: {}
+[2.779510] (-) TimerEvent: {}
+[2.882328] (-) TimerEvent: {}
+[2.982918] (-) TimerEvent: {}
+[3.086479] (-) TimerEvent: {}
+[3.189304] (-) TimerEvent: {}
+[3.291359] (-) TimerEvent: {}
+[3.392853] (-) TimerEvent: {}
+[3.494837] (-) TimerEvent: {}
+[3.576238] (linkattacher_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.579834] (linkattacher_msgs) StdoutLine: {'line': b'writing linkattacher_msgs.egg-info/PKG-INFO\n'}
+[3.581277] (linkattacher_msgs) StdoutLine: {'line': b'writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt\n'}
+[3.581633] (linkattacher_msgs) StdoutLine: {'line': b'writing top-level names to linkattacher_msgs.egg-info/top_level.txt\n'}
+[3.595022] (-) TimerEvent: {}
+[3.600027] (linkattacher_msgs) StdoutLine: {'line': b"reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'\n"}
+[3.606882] (linkattacher_msgs) StdoutLine: {'line': b"writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'\n"}
+[3.695205] (-) TimerEvent: {}
+[3.772824] (linkattacher_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_linkattacher_msgs_egg\n'}
+[3.795370] (-) TimerEvent: {}
+[3.897332] (-) TimerEvent: {}
+[3.927609] (linkattacher_msgs) StdoutLine: {'line': b'[ 31%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.001099] (-) TimerEvent: {}
+[4.076067] (linkattacher_msgs) StdoutLine: {'line': b'[ 40%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c\n'}
+[4.105031] (-) TimerEvent: {}
+[4.199219] (linkattacher_msgs) StdoutLine: {'line': b'[ 50%] Built target linkattacher_msgs__rosidl_typesupport_c\n'}
+[4.205276] (-) TimerEvent: {}
+[4.309323] (-) TimerEvent: {}
+[4.337753] (linkattacher_msgs) StdoutLine: {'line': b'[ 59%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.409492] (-) TimerEvent: {}
+[4.461312] (linkattacher_msgs) StdoutLine: {'line': b'[ 68%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.510892] (-) TimerEvent: {}
+[4.593470] (linkattacher_msgs) StdoutLine: {'line': b'[ 77%] Built target linkattacher_msgs__rosidl_typesupport_cpp\n'}
+[4.612264] (-) TimerEvent: {}
+[4.708647] (linkattacher_msgs) StdoutLine: {'line': b'[ 77%] Built target linkattacher_msgs\n'}
+[4.712463] (-) TimerEvent: {}
+[4.813083] (-) TimerEvent: {}
+[4.827362] (linkattacher_msgs) StdoutLine: {'line': b'[ 79%] Built target linkattacher_msgs__py\n'}
+[4.913336] (-) TimerEvent: {}
+[4.954547] (linkattacher_msgs) StdoutLine: {'line': b'[ 86%] Built target linkattacher_msgs__rosidl_generator_py\n'}
+[5.015310] (-) TimerEvent: {}
+[5.076183] (linkattacher_msgs) StdoutLine: {'line': b'[ 90%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.117302] (-) TimerEvent: {}
+[5.195601] (linkattacher_msgs) StdoutLine: {'line': b'[ 95%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.218305] (-) TimerEvent: {}
+[5.319899] (-) TimerEvent: {}
+[5.328272] (linkattacher_msgs) StdoutLine: {'line': b'[100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext\n'}
+[5.394969] (linkattacher_msgs) CommandEnded: {'returncode': 0}
+[5.402534] (linkattacher_msgs) JobProgress: {'identifier': 'linkattacher_msgs', 'progress': 'install'}
+[5.402735] (linkattacher_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monica/ros2_pelota/build/linkattacher_msgs'], 'cwd': '/home/monica/ros2_pelota/build/linkattacher_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/linkattacher_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[5.424648] (-) TimerEvent: {}
+[5.471113] (linkattacher_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.471598] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv\n'}
+[5.471890] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv\n'}
+[5.472195] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv\n'}
+[5.473436] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs\n'}
+[5.474079] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.json\n'}
+[5.474485] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.json\n'}
+[5.474794] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.475151] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.475685] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h\n'}
+[5.475993] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h\n'}
+[5.476428] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.476714] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c\n'}
+[5.477654] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c\n'}
+[5.478109] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h\n'}
+[5.478469] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c\n'}
+[5.478973] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h\n'}
+[5.479532] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h\n'}
+[5.479814] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h\n'}
+[5.480108] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__description.c\n'}
+[5.480741] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c\n'}
+[5.481064] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h\n'}
+[5.481511] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__description.c\n'}
+[5.481782] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h\n'}
+[5.482051] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg\n'}
+[5.482352] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.484708] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh\n'}
+[5.485013] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv\n'}
+[5.485312] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so\n'}
+[5.487296] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.487793] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.488074] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.488393] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h\n'}
+[5.488792] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h\n'}
+[5.489066] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg\n'}
+[5.489375] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.493268] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.496358] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.496830] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.497116] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.497474] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c\n'}
+[5.499554] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c\n'}
+[5.502103] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h\n'}
+[5.502621] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h\n'}
+[5.502904] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg\n'}
+[5.504565] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.505763] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.510401] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so\n'}
+[5.512607] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.513385] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.513669] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp\n'}
+[5.513945] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp\n'}
+[5.516540] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.516907] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp\n'}
+[5.517209] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp\n'}
+[5.517507] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp\n'}
+[5.517784] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp\n'}
+[5.518162] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp\n'}
+[5.518459] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp\n'}
+[5.518733] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.519005] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.519319] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.519759] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps\n'}
+[5.520032] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.520331] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.520610] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg\n'}
+[5.520878] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.522731] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.523730] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs\n'}
+[5.524013] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv\n'}
+[5.524357] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail\n'}
+[5.524619] (-) TimerEvent: {}
+[5.524929] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp\n'}
+[5.525242] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.525529] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.525802] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp\n'}
+[5.529176] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.533289] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so\n'}
+[5.535873] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh\n'}
+[5.536456] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv\n'}
+[5.536800] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info\n'}
+[5.537429] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.540157] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.543382] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.543787] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.544073] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs\n'}
+[5.544398] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so\n'}
+[5.544682] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.544961] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.546165] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv\n'}
+[5.548243] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_detach_link.py\n'}
+[5.548656] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_attach_link_s.c\n'}
+[5.548929] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/__init__.py\n'}
+[5.549209] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_attach_link.py\n'}
+[5.549496] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv/_detach_link_s.c\n'}
+[5.549765] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.550035] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/__init__.py\n'}
+[5.550344] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.550625] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.550925] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.624801] (-) TimerEvent: {}
+[5.725391] (-) TimerEvent: {}
+[5.740401] (linkattacher_msgs) StdoutLine: {'line': b"Listing '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs'...\n"}
+[5.740872] (linkattacher_msgs) StdoutLine: {'line': b"Listing '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/srv'...\n"}
+[5.766404] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.773431] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.774816] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.778633] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so\n'}
+[5.783677] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl\n'}
+[5.785233] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl\n'}
+[5.785562] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv\n'}
+[5.785846] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg\n'}
+[5.786130] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg\n'}
+[5.787775] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv\n'}
+[5.788291] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg\n'}
+[5.788617] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg\n'}
+[5.788897] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs\n'}
+[5.791243] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs\n'}
+[5.791732] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh\n'}
+[5.792011] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv\n'}
+[5.792311] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh\n'}
+[5.792665] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv\n'}
+[5.793739] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash\n'}
+[5.794308] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh\n'}
+[5.794599] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh\n'}
+[5.796122] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv\n'}
+[5.796466] (linkattacher_msgs) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv\n'}
+[5.796767] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs\n'}
+[5.797046] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake\n'}
+[5.797351] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.798910] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.800663] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.800959] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.801731] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.802033] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.802340] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.804723] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.805354] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.805661] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.805935] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.806226] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.807484] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.809037] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.809389] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.809669] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.809945] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.812401] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.812746] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.813024] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.813329] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.813608] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.813877] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.814171] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake\n'}
+[5.814461] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake\n'}
+[5.814735] (linkattacher_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.xml\n'}
+[5.823275] (linkattacher_msgs) CommandEnded: {'returncode': 0}
+[5.825537] (-) TimerEvent: {}
+[5.926180] (-) TimerEvent: {}
+[5.960056] (linkattacher_msgs) JobEnded: {'identifier': 'linkattacher_msgs', 'rc': 0}
+[5.966337] (ros2_linkattacher) JobStarted: {'identifier': 'ros2_linkattacher'}
+[5.998271] (xolobot_arm_server) JobStarted: {'identifier': 'xolobot_arm_server'}
+[6.029490] (-) TimerEvent: {}
+[6.059271] (ros2_linkattacher) JobProgress: {'identifier': 'ros2_linkattacher', 'progress': 'cmake'}
+[6.065904] (ros2_linkattacher) JobProgress: {'identifier': 'ros2_linkattacher', 'progress': 'build'}
+[6.073414] (ros2_linkattacher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monica/ros2_pelota/build/ros2_linkattacher', '--', '-j2', '-l2'], 'cwd': '/home/monica/ros2_pelota/build/ros2_linkattacher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/ros2_linkattacher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[6.094323] (xolobot_arm_server) JobProgress: {'identifier': 'xolobot_arm_server', 'progress': 'cmake'}
+[6.116457] (xolobot_arm_server) JobProgress: {'identifier': 'xolobot_arm_server', 'progress': 'build'}
+[6.116668] (xolobot_arm_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monica/ros2_pelota/build/xolobot_arm_server', '--', '-j2', '-l2'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_arm_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_arm_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[6.130605] (-) TimerEvent: {}
+[6.235547] (-) TimerEvent: {}
+[6.337081] (-) TimerEvent: {}
+[6.438753] (-) TimerEvent: {}
+[6.541547] (-) TimerEvent: {}
+[6.645653] (-) TimerEvent: {}
+[6.749293] (-) TimerEvent: {}
+[6.798479] (ros2_linkattacher) StdoutLine: {'line': b'[100%] Built target gazebo_link_attacher\n'}
+[6.853302] (-) TimerEvent: {}
+[6.876414] (xolobot_arm_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xolobot_arm_server\x1b[0m\n'}
+[6.909131] (ros2_linkattacher) CommandEnded: {'returncode': 0}
+[6.926672] (ros2_linkattacher) JobProgress: {'identifier': 'ros2_linkattacher', 'progress': 'install'}
+[6.926862] (ros2_linkattacher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monica/ros2_pelota/build/ros2_linkattacher'], 'cwd': '/home/monica/ros2_pelota/build/ros2_linkattacher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/ros2_linkattacher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[6.959213] (-) TimerEvent: {}
+[7.003944] (ros2_linkattacher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.006961] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.sh\n'}
+[7.007339] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.dsv\n'}
+[7.011241] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/lib/libgazebo_link_attacher.so\n'}
+[7.013321] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/package_run_dependencies/ros2_linkattacher\n'}
+[7.015247] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/parent_prefix_path/ros2_linkattacher\n'}
+[7.017423] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.sh\n'}
+[7.018313] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.dsv\n'}
+[7.018616] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.sh\n'}
+[7.021249] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.dsv\n'}
+[7.021588] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.bash\n'}
+[7.021857] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.sh\n'}
+[7.024628] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.zsh\n'}
+[7.024996] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.dsv\n'}
+[7.027406] (ros2_linkattacher) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv\n'}
+[7.032816] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ament_index/resource_index/packages/ros2_linkattacher\n'}
+[7.033308] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.033598] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig.cmake\n'}
+[7.033866] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig-version.cmake\n'}
+[7.034134] (ros2_linkattacher) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.xml\n'}
+[7.041665] (ros2_linkattacher) CommandEnded: {'returncode': 0}
+[7.059796] (-) TimerEvent: {}
+[7.161492] (-) TimerEvent: {}
+[7.187310] (ros2_linkattacher) JobEnded: {'identifier': 'ros2_linkattacher', 'rc': 0}
+[7.264287] (-) TimerEvent: {}
+[7.269396] (xolobot_arm_server) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/xolobot_arm_server.dir/src/SimulationController.cpp.o\x1b[0m\n'}
+[7.364463] (-) TimerEvent: {}
+[7.466444] (-) TimerEvent: {}
+[7.569575] (-) TimerEvent: {}
+[7.670630] (-) TimerEvent: {}
+[7.771446] (-) TimerEvent: {}
+[7.872044] (-) TimerEvent: {}
+[7.974432] (-) TimerEvent: {}
+[8.076287] (-) TimerEvent: {}
+[8.177269] (-) TimerEvent: {}
+[8.279643] (-) TimerEvent: {}
+[8.381530] (-) TimerEvent: {}
+[8.483422] (-) TimerEvent: {}
+[8.585410] (-) TimerEvent: {}
+[8.687270] (-) TimerEvent: {}
+[8.788469] (-) TimerEvent: {}
+[8.890462] (-) TimerEvent: {}
+[8.993287] (-) TimerEvent: {}
+[9.094086] (-) TimerEvent: {}
+[9.196489] (-) TimerEvent: {}
+[9.298295] (-) TimerEvent: {}
+[9.400273] (-) TimerEvent: {}
+[9.502283] (-) TimerEvent: {}
+[9.603972] (-) TimerEvent: {}
+[9.704821] (-) TimerEvent: {}
+[9.806561] (-) TimerEvent: {}
+[9.908497] (-) TimerEvent: {}
+[10.010273] (-) TimerEvent: {}
+[10.111945] (-) TimerEvent: {}
+[10.214583] (-) TimerEvent: {}
+[10.315352] (-) TimerEvent: {}
+[10.417298] (-) TimerEvent: {}
+[10.519564] (-) TimerEvent: {}
+[10.621301] (-) TimerEvent: {}
+[10.722537] (-) TimerEvent: {}
+[10.824278] (-) TimerEvent: {}
+[10.926095] (-) TimerEvent: {}
+[11.028432] (-) TimerEvent: {}
+[11.129938] (-) TimerEvent: {}
+[11.232709] (-) TimerEvent: {}
+[11.334407] (-) TimerEvent: {}
+[11.435756] (-) TimerEvent: {}
+[11.538043] (-) TimerEvent: {}
+[11.640479] (-) TimerEvent: {}
+[11.742375] (-) TimerEvent: {}
+[11.845084] (-) TimerEvent: {}
+[11.946588] (-) TimerEvent: {}
+[12.050047] (-) TimerEvent: {}
+[12.153530] (-) TimerEvent: {}
+[12.254195] (-) TimerEvent: {}
+[12.354842] (-) TimerEvent: {}
+[12.456282] (-) TimerEvent: {}
+[12.558282] (-) TimerEvent: {}
+[12.658977] (-) TimerEvent: {}
+[12.759658] (-) TimerEvent: {}
+[12.861280] (-) TimerEvent: {}
+[12.962868] (-) TimerEvent: {}
+[13.065428] (-) TimerEvent: {}
+[13.166283] (-) TimerEvent: {}
+[13.269276] (-) TimerEvent: {}
+[13.369886] (-) TimerEvent: {}
+[13.470499] (-) TimerEvent: {}
+[13.571317] (-) TimerEvent: {}
+[13.672903] (-) TimerEvent: {}
+[13.774738] (-) TimerEvent: {}
+[13.875393] (-) TimerEvent: {}
+[13.980305] (-) TimerEvent: {}
+[14.083297] (-) TimerEvent: {}
+[14.183956] (-) TimerEvent: {}
+[14.284680] (-) TimerEvent: {}
+[14.385287] (-) TimerEvent: {}
+[14.486923] (-) TimerEvent: {}
+[14.588320] (-) TimerEvent: {}
+[14.690278] (-) TimerEvent: {}
+[14.790920] (-) TimerEvent: {}
+[14.892204] (-) TimerEvent: {}
+[14.994282] (-) TimerEvent: {}
+[15.095164] (-) TimerEvent: {}
+[15.197281] (-) TimerEvent: {}
+[15.297912] (-) TimerEvent: {}
+[15.400287] (-) TimerEvent: {}
+[15.500991] (-) TimerEvent: {}
+[15.601641] (-) TimerEvent: {}
+[15.703063] (-) TimerEvent: {}
+[15.805553] (-) TimerEvent: {}
+[15.906682] (-) TimerEvent: {}
+[16.008588] (-) TimerEvent: {}
+[16.110818] (-) TimerEvent: {}
+[16.211856] (-) TimerEvent: {}
+[16.314017] (-) TimerEvent: {}
+[16.415618] (-) TimerEvent: {}
+[16.516302] (-) TimerEvent: {}
+[16.616930] (-) TimerEvent: {}
+[16.719506] (-) TimerEvent: {}
+[16.820312] (-) TimerEvent: {}
+[16.921743] (-) TimerEvent: {}
+[17.023004] (-) TimerEvent: {}
+[17.127986] (-) TimerEvent: {}
+[17.228612] (-) TimerEvent: {}
+[17.330098] (-) TimerEvent: {}
+[17.433279] (-) TimerEvent: {}
+[17.533894] (-) TimerEvent: {}
+[17.635052] (-) TimerEvent: {}
+[17.738713] (-) TimerEvent: {}
+[17.843635] (-) TimerEvent: {}
+[17.944968] (-) TimerEvent: {}
+[18.048574] (-) TimerEvent: {}
+[18.149596] (-) TimerEvent: {}
+[18.250428] (-) TimerEvent: {}
+[18.351058] (-) TimerEvent: {}
+[18.453274] (-) TimerEvent: {}
+[18.554991] (-) TimerEvent: {}
+[18.656466] (-) TimerEvent: {}
+[18.758279] (-) TimerEvent: {}
+[18.860270] (-) TimerEvent: {}
+[18.960860] (-) TimerEvent: {}
+[19.063129] (-) TimerEvent: {}
+[19.164271] (-) TimerEvent: {}
+[19.265909] (-) TimerEvent: {}
+[19.367436] (-) TimerEvent: {}
+[19.468967] (-) TimerEvent: {}
+[19.573276] (-) TimerEvent: {}
+[19.673864] (-) TimerEvent: {}
+[19.775274] (-) TimerEvent: {}
+[19.877289] (-) TimerEvent: {}
+[19.978660] (-) TimerEvent: {}
+[20.080900] (-) TimerEvent: {}
+[20.184275] (-) TimerEvent: {}
+[20.284858] (-) TimerEvent: {}
+[20.387277] (-) TimerEvent: {}
+[20.487893] (-) TimerEvent: {}
+[20.589266] (-) TimerEvent: {}
+[20.691290] (-) TimerEvent: {}
+[20.793270] (-) TimerEvent: {}
+[20.895272] (-) TimerEvent: {}
+[20.995869] (-) TimerEvent: {}
+[21.098281] (-) TimerEvent: {}
+[21.198883] (-) TimerEvent: {}
+[21.301084] (-) TimerEvent: {}
+[21.405700] (-) TimerEvent: {}
+[21.506291] (-) TimerEvent: {}
+[21.607446] (-) TimerEvent: {}
+[21.711283] (-) TimerEvent: {}
+[21.811895] (-) TimerEvent: {}
+[21.912500] (-) TimerEvent: {}
+[22.014271] (-) TimerEvent: {}
+[22.115943] (-) TimerEvent: {}
+[22.217684] (-) TimerEvent: {}
+[22.318763] (-) TimerEvent: {}
+[22.421275] (-) TimerEvent: {}
+[22.523284] (-) TimerEvent: {}
+[22.623882] (-) TimerEvent: {}
+[22.727418] (-) TimerEvent: {}
+[22.829271] (-) TimerEvent: {}
+[22.933001] (-) TimerEvent: {}
+[23.033946] (-) TimerEvent: {}
+[23.135941] (-) TimerEvent: {}
+[23.237283] (-) TimerEvent: {}
+[23.338270] (-) TimerEvent: {}
+[23.440006] (-) TimerEvent: {}
+[23.541380] (-) TimerEvent: {}
+[23.644288] (-) TimerEvent: {}
+[23.744903] (-) TimerEvent: {}
+[23.845518] (-) TimerEvent: {}
+[23.947277] (-) TimerEvent: {}
+[24.049274] (-) TimerEvent: {}
+[24.149878] (-) TimerEvent: {}
+[24.252439] (-) TimerEvent: {}
+[24.354093] (-) TimerEvent: {}
+[24.456284] (-) TimerEvent: {}
+[24.556903] (-) TimerEvent: {}
+[24.658300] (-) TimerEvent: {}
+[24.759807] (-) TimerEvent: {}
+[24.862302] (-) TimerEvent: {}
+[24.963292] (-) TimerEvent: {}
+[25.065296] (-) TimerEvent: {}
+[25.167235] (-) TimerEvent: {}
+[25.268318] (-) TimerEvent: {}
+[25.369879] (-) TimerEvent: {}
+[25.471387] (-) TimerEvent: {}
+[25.572964] (-) TimerEvent: {}
+[25.674282] (-) TimerEvent: {}
+[25.775256] (-) TimerEvent: {}
+[25.877289] (-) TimerEvent: {}
+[25.977934] (-) TimerEvent: {}
+[26.080285] (-) TimerEvent: {}
+[26.180921] (-) TimerEvent: {}
+[26.282284] (-) TimerEvent: {}
+[26.383838] (-) TimerEvent: {}
+[26.485280] (-) TimerEvent: {}
+[26.588313] (-) TimerEvent: {}
+[26.688980] (-) TimerEvent: {}
+[26.789637] (-) TimerEvent: {}
+[26.892295] (-) TimerEvent: {}
+[26.993278] (-) TimerEvent: {}
+[27.093938] (-) TimerEvent: {}
+[27.194935] (-) TimerEvent: {}
+[27.297856] (-) TimerEvent: {}
+[27.398522] (-) TimerEvent: {}
+[27.500429] (-) TimerEvent: {}
+[27.601488] (-) TimerEvent: {}
+[27.703282] (-) TimerEvent: {}
+[27.803935] (-) TimerEvent: {}
+[27.905281] (-) TimerEvent: {}
+[28.008287] (-) TimerEvent: {}
+[28.109218] (-) TimerEvent: {}
+[28.209876] (-) TimerEvent: {}
+[28.310754] (-) TimerEvent: {}
+[28.413276] (-) TimerEvent: {}
+[28.513953] (-) TimerEvent: {}
+[28.614715] (-) TimerEvent: {}
+[28.720449] (-) TimerEvent: {}
+[28.821079] (-) TimerEvent: {}
+[28.922003] (-) TimerEvent: {}
+[29.025196] (-) TimerEvent: {}
+[29.126118] (-) TimerEvent: {}
+[29.226906] (-) TimerEvent: {}
+[29.329280] (-) TimerEvent: {}
+[29.429900] (-) TimerEvent: {}
+[29.530550] (-) TimerEvent: {}
+[29.633433] (-) TimerEvent: {}
+[29.734203] (-) TimerEvent: {}
+[29.836069] (-) TimerEvent: {}
+[29.937281] (-) TimerEvent: {}
+[30.039280] (-) TimerEvent: {}
+[30.139912] (-) TimerEvent: {}
+[30.240866] (-) TimerEvent: {}
+[30.342274] (-) TimerEvent: {}
+[30.444331] (-) TimerEvent: {}
+[30.546520] (-) TimerEvent: {}
+[30.649535] (-) TimerEvent: {}
+[30.752294] (-) TimerEvent: {}
+[30.853242] (-) TimerEvent: {}
+[30.955293] (-) TimerEvent: {}
+[31.057523] (-) TimerEvent: {}
+[31.158949] (-) TimerEvent: {}
+[31.260736] (-) TimerEvent: {}
+[31.362938] (-) TimerEvent: {}
+[31.466519] (-) TimerEvent: {}
+[31.569722] (-) TimerEvent: {}
+[31.670664] (-) TimerEvent: {}
+[31.773438] (-) TimerEvent: {}
+[31.876732] (-) TimerEvent: {}
+[31.979667] (-) TimerEvent: {}
+[32.081536] (-) TimerEvent: {}
+[32.183475] (-) TimerEvent: {}
+[32.285268] (-) TimerEvent: {}
+[32.386307] (-) TimerEvent: {}
+[32.489297] (-) TimerEvent: {}
+[32.589915] (-) TimerEvent: {}
+[32.691571] (-) TimerEvent: {}
+[32.793778] (-) TimerEvent: {}
+[32.896554] (-) TimerEvent: {}
+[32.998299] (-) TimerEvent: {}
+[33.100288] (-) TimerEvent: {}
+[33.203215] (-) TimerEvent: {}
+[33.304116] (-) TimerEvent: {}
+[33.406758] (-) TimerEvent: {}
+[33.511745] (-) TimerEvent: {}
+[33.613282] (-) TimerEvent: {}
+[33.715036] (-) TimerEvent: {}
+[33.816717] (-) TimerEvent: {}
+[33.919278] (-) TimerEvent: {}
+[34.019914] (-) TimerEvent: {}
+[34.120584] (-) TimerEvent: {}
+[34.222564] (-) TimerEvent: {}
+[34.324561] (-) TimerEvent: {}
+[34.427283] (-) TimerEvent: {}
+[34.527899] (-) TimerEvent: {}
+[34.628628] (-) TimerEvent: {}
+[34.731287] (-) TimerEvent: {}
+[34.831935] (-) TimerEvent: {}
+[34.932564] (-) TimerEvent: {}
+[35.033246] (-) TimerEvent: {}
+[35.136284] (-) TimerEvent: {}
+[35.236970] (-) TimerEvent: {}
+[35.337629] (-) TimerEvent: {}
+[35.438270] (-) TimerEvent: {}
+[35.540859] (-) TimerEvent: {}
+[35.641499] (-) TimerEvent: {}
+[35.742177] (-) TimerEvent: {}
+[35.845329] (-) TimerEvent: {}
+[35.945985] (-) TimerEvent: {}
+[36.046657] (-) TimerEvent: {}
+[36.148285] (-) TimerEvent: {}
+[36.250454] (-) TimerEvent: {}
+[36.352302] (-) TimerEvent: {}
+[36.452920] (-) TimerEvent: {}
+[36.555473] (-) TimerEvent: {}
+[36.656102] (-) TimerEvent: {}
+[36.756754] (-) TimerEvent: {}
+[36.858807] (-) TimerEvent: {}
+[36.961283] (-) TimerEvent: {}
+[37.062205] (-) TimerEvent: {}
+[37.162828] (-) TimerEvent: {}
+[37.264281] (-) TimerEvent: {}
+[37.366994] (-) TimerEvent: {}
+[37.468069] (-) TimerEvent: {}
+[37.570446] (-) TimerEvent: {}
+[37.671543] (-) TimerEvent: {}
+[37.774536] (-) TimerEvent: {}
+[37.875519] (-) TimerEvent: {}
+[37.976266] (-) TimerEvent: {}
+[38.078289] (-) TimerEvent: {}
+[38.179276] (-) TimerEvent: {}
+[38.280323] (-) TimerEvent: {}
+[38.382312] (-) TimerEvent: {}
+[38.483026] (-) TimerEvent: {}
+[38.585314] (-) TimerEvent: {}
+[38.685920] (-) TimerEvent: {}
+[38.787785] (-) TimerEvent: {}
+[38.890291] (-) TimerEvent: {}
+[38.991239] (-) TimerEvent: {}
+[39.092765] (-) TimerEvent: {}
+[39.195289] (-) TimerEvent: {}
+[39.296132] (-) TimerEvent: {}
+[39.398283] (-) TimerEvent: {}
+[39.498920] (-) TimerEvent: {}
+[39.599574] (-) TimerEvent: {}
+[39.701761] (-) TimerEvent: {}
+[39.802885] (-) TimerEvent: {}
+[39.905284] (-) TimerEvent: {}
+[40.005909] (-) TimerEvent: {}
+[40.107279] (-) TimerEvent: {}
+[40.208002] (-) TimerEvent: {}
+[40.310291] (-) TimerEvent: {}
+[40.410939] (-) TimerEvent: {}
+[40.513280] (-) TimerEvent: {}
+[40.613915] (-) TimerEvent: {}
+[40.714562] (-) TimerEvent: {}
+[40.816277] (-) TimerEvent: {}
+[40.916916] (-) TimerEvent: {}
+[41.018207] (-) TimerEvent: {}
+[41.119251] (-) TimerEvent: {}
+[41.221178] (-) TimerEvent: {}
+[41.323057] (-) TimerEvent: {}
+[41.425296] (-) TimerEvent: {}
+[41.526578] (-) TimerEvent: {}
+[41.628971] (-) TimerEvent: {}
+[41.730311] (-) TimerEvent: {}
+[41.832300] (-) TimerEvent: {}
+[41.932949] (-) TimerEvent: {}
+[42.035284] (-) TimerEvent: {}
+[42.136984] (-) TimerEvent: {}
+[42.237871] (-) TimerEvent: {}
+[42.339021] (-) TimerEvent: {}
+[42.440052] (-) TimerEvent: {}
+[42.542754] (-) TimerEvent: {}
+[42.643385] (-) TimerEvent: {}
+[42.744296] (-) TimerEvent: {}
+[42.845940] (-) TimerEvent: {}
+[42.947728] (-) TimerEvent: {}
+[43.049459] (-) TimerEvent: {}
+[43.151431] (-) TimerEvent: {}
+[43.252773] (-) TimerEvent: {}
+[43.354812] (-) TimerEvent: {}
+[43.456224] (-) TimerEvent: {}
+[43.558779] (-) TimerEvent: {}
+[43.660419] (-) TimerEvent: {}
+[43.762491] (-) TimerEvent: {}
+[43.863735] (-) TimerEvent: {}
+[43.965564] (-) TimerEvent: {}
+[44.068219] (-) TimerEvent: {}
+[44.169973] (-) TimerEvent: {}
+[44.271284] (-) TimerEvent: {}
+[44.373296] (-) TimerEvent: {}
+[44.473906] (-) TimerEvent: {}
+[44.574603] (-) TimerEvent: {}
+[44.676284] (-) TimerEvent: {}
+[44.777794] (-) TimerEvent: {}
+[44.881285] (-) TimerEvent: {}
+[44.981890] (-) TimerEvent: {}
+[45.082519] (-) TimerEvent: {}
+[45.184505] (-) TimerEvent: {}
+[45.285077] (-) TimerEvent: {}
+[45.387504] (-) TimerEvent: {}
+[45.488624] (-) TimerEvent: {}
+[45.590436] (-) TimerEvent: {}
+[45.692288] (-) TimerEvent: {}
+[45.793289] (-) TimerEvent: {}
+[45.895700] (-) TimerEvent: {}
+[45.996817] (-) TimerEvent: {}
+[46.098459] (-) TimerEvent: {}
+[46.200781] (-) TimerEvent: {}
+[46.302524] (-) TimerEvent: {}
+[46.404282] (-) TimerEvent: {}
+[46.505462] (-) TimerEvent: {}
+[46.606869] (-) TimerEvent: {}
+[46.708714] (-) TimerEvent: {}
+[46.810282] (-) TimerEvent: {}
+[46.910911] (-) TimerEvent: {}
+[47.012455] (-) TimerEvent: {}
+[47.114309] (-) TimerEvent: {}
+[47.216288] (-) TimerEvent: {}
+[47.318299] (-) TimerEvent: {}
+[47.419685] (-) TimerEvent: {}
+[47.521737] (-) TimerEvent: {}
+[47.623495] (-) TimerEvent: {}
+[47.725701] (-) TimerEvent: {}
+[47.826425] (-) TimerEvent: {}
+[47.928292] (-) TimerEvent: {}
+[48.028911] (-) TimerEvent: {}
+[48.130287] (-) TimerEvent: {}
+[48.182196] (xolobot_arm_server) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable xolobot_arm_server\x1b[0m\n'}
+[48.230493] (-) TimerEvent: {}
+[48.332292] (-) TimerEvent: {}
+[48.434301] (-) TimerEvent: {}
+[48.535674] (-) TimerEvent: {}
+[48.637379] (-) TimerEvent: {}
+[48.738724] (-) TimerEvent: {}
+[48.840342] (-) TimerEvent: {}
+[48.942976] (-) TimerEvent: {}
+[49.044293] (-) TimerEvent: {}
+[49.145756] (-) TimerEvent: {}
+[49.248502] (-) TimerEvent: {}
+[49.349138] (-) TimerEvent: {}
+[49.454480] (-) TimerEvent: {}
+[49.555166] (-) TimerEvent: {}
+[49.655971] (-) TimerEvent: {}
+[49.757068] (-) TimerEvent: {}
+[49.858250] (-) TimerEvent: {}
+[49.960527] (-) TimerEvent: {}
+[50.062495] (-) TimerEvent: {}
+[50.163600] (-) TimerEvent: {}
+[50.266048] (-) TimerEvent: {}
+[50.366992] (-) TimerEvent: {}
+[50.471353] (-) TimerEvent: {}
+[50.574317] (-) TimerEvent: {}
+[50.674986] (-) TimerEvent: {}
+[50.777504] (-) TimerEvent: {}
+[50.878160] (-) TimerEvent: {}
+[50.979323] (-) TimerEvent: {}
+[51.081234] (-) TimerEvent: {}
+[51.183281] (-) TimerEvent: {}
+[51.285062] (-) TimerEvent: {}
+[51.385903] (-) TimerEvent: {}
+[51.488466] (-) TimerEvent: {}
+[51.589191] (-) TimerEvent: {}
+[51.691280] (-) TimerEvent: {}
+[51.791982] (-) TimerEvent: {}
+[51.894048] (-) TimerEvent: {}
+[51.994804] (-) TimerEvent: {}
+[52.096201] (-) TimerEvent: {}
+[52.198292] (-) TimerEvent: {}
+[52.298988] (-) TimerEvent: {}
+[52.400477] (-) TimerEvent: {}
+[52.502088] (-) TimerEvent: {}
+[52.604297] (-) TimerEvent: {}
+[52.706288] (-) TimerEvent: {}
+[52.806962] (-) TimerEvent: {}
+[52.908303] (-) TimerEvent: {}
+[53.010556] (-) TimerEvent: {}
+[53.112304] (-) TimerEvent: {}
+[53.213823] (-) TimerEvent: {}
+[53.315158] (-) TimerEvent: {}
+[53.418291] (-) TimerEvent: {}
+[53.518969] (-) TimerEvent: {}
+[53.619694] (-) TimerEvent: {}
+[53.720430] (-) TimerEvent: {}
+[53.822856] (-) TimerEvent: {}
+[53.923545] (-) TimerEvent: {}
+[54.024740] (-) TimerEvent: {}
+[54.127708] (-) TimerEvent: {}
+[54.228422] (-) TimerEvent: {}
+[54.329107] (-) TimerEvent: {}
+[54.430700] (-) TimerEvent: {}
+[54.532664] (-) TimerEvent: {}
+[54.634755] (-) TimerEvent: {}
+[54.736301] (-) TimerEvent: {}
+[54.837012] (-) TimerEvent: {}
+[54.938475] (-) TimerEvent: {}
+[55.040307] (-) TimerEvent: {}
+[55.141054] (-) TimerEvent: {}
+[55.242556] (-) TimerEvent: {}
+[55.344081] (-) TimerEvent: {}
+[55.445293] (-) TimerEvent: {}
+[55.548289] (-) TimerEvent: {}
+[55.649063] (-) TimerEvent: {}
+[55.751293] (-) TimerEvent: {}
+[55.851973] (-) TimerEvent: {}
+[55.954802] (-) TimerEvent: {}
+[56.055557] (-) TimerEvent: {}
+[56.157290] (-) TimerEvent: {}
+[56.257959] (-) TimerEvent: {}
+[56.360810] (-) TimerEvent: {}
+[56.462113] (-) TimerEvent: {}
+[56.563552] (-) TimerEvent: {}
+[56.665643] (-) TimerEvent: {}
+[56.767299] (-) TimerEvent: {}
+[56.867963] (-) TimerEvent: {}
+[56.969426] (-) TimerEvent: {}
+[57.071297] (-) TimerEvent: {}
+[57.171987] (-) TimerEvent: {}
+[57.274454] (-) TimerEvent: {}
+[57.376294] (-) TimerEvent: {}
+[57.477009] (-) TimerEvent: {}
+[57.580314] (-) TimerEvent: {}
+[57.681041] (-) TimerEvent: {}
+[57.781727] (-) TimerEvent: {}
+[57.884296] (-) TimerEvent: {}
+[57.985289] (-) TimerEvent: {}
+[58.086777] (-) TimerEvent: {}
+[58.189096] (-) TimerEvent: {}
+[58.289808] (-) TimerEvent: {}
+[58.391838] (-) TimerEvent: {}
+[58.494299] (-) TimerEvent: {}
+[58.594951] (-) TimerEvent: {}
+[58.696335] (-) TimerEvent: {}
+[58.798439] (-) TimerEvent: {}
+[58.899129] (-) TimerEvent: {}
+[59.000735] (-) TimerEvent: {}
+[59.102018] (-) TimerEvent: {}
+[59.203755] (-) TimerEvent: {}
+[59.306307] (-) TimerEvent: {}
+[59.406977] (-) TimerEvent: {}
+[59.508570] (-) TimerEvent: {}
+[59.610290] (-) TimerEvent: {}
+[59.711003] (-) TimerEvent: {}
+[59.814370] (-) TimerEvent: {}
+[59.915070] (-) TimerEvent: {}
+[60.015778] (-) TimerEvent: {}
+[60.117040] (-) TimerEvent: {}
+[60.219314] (-) TimerEvent: {}
+[60.320323] (-) TimerEvent: {}
+[60.423305] (-) TimerEvent: {}
+[60.523991] (-) TimerEvent: {}
+[60.625003] (-) TimerEvent: {}
+[60.726886] (-) TimerEvent: {}
+[60.828886] (-) TimerEvent: {}
+[60.931379] (-) TimerEvent: {}
+[61.032439] (-) TimerEvent: {}
+[61.136561] (-) TimerEvent: {}
+[61.237506] (-) TimerEvent: {}
+[61.339127] (-) TimerEvent: {}
+[61.440931] (-) TimerEvent: {}
+[61.542813] (-) TimerEvent: {}
+[61.643756] (-) TimerEvent: {}
+[61.745759] (-) TimerEvent: {}
+[61.847295] (-) TimerEvent: {}
+[61.949303] (-) TimerEvent: {}
+[62.051022] (-) TimerEvent: {}
+[62.152306] (-) TimerEvent: {}
+[62.253814] (-) TimerEvent: {}
+[62.355295] (-) TimerEvent: {}
+[62.456418] (-) TimerEvent: {}
+[62.558292] (-) TimerEvent: {}
+[62.659489] (-) TimerEvent: {}
+[62.761183] (-) TimerEvent: {}
+[62.864726] (-) TimerEvent: {}
+[62.965587] (-) TimerEvent: {}
+[63.066237] (-) TimerEvent: {}
+[63.167120] (-) TimerEvent: {}
+[63.267821] (-) TimerEvent: {}
+[63.369281] (-) TimerEvent: {}
+[63.471290] (-) TimerEvent: {}
+[63.572919] (-) TimerEvent: {}
+[63.675281] (-) TimerEvent: {}
+[63.777335] (-) TimerEvent: {}
+[63.879342] (-) TimerEvent: {}
+[63.980316] (-) TimerEvent: {}
+[64.081732] (-) TimerEvent: {}
+[64.184289] (-) TimerEvent: {}
+[64.284950] (-) TimerEvent: {}
+[64.386290] (-) TimerEvent: {}
+[64.487705] (-) TimerEvent: {}
+[64.589021] (-) TimerEvent: {}
+[64.690690] (-) TimerEvent: {}
+[64.792289] (-) TimerEvent: {}
+[64.894396] (-) TimerEvent: {}
+[64.996303] (-) TimerEvent: {}
+[65.098640] (-) TimerEvent: {}
+[65.200413] (-) TimerEvent: {}
+[65.301692] (-) TimerEvent: {}
+[65.403718] (-) TimerEvent: {}
+[65.505894] (-) TimerEvent: {}
+[65.606502] (-) TimerEvent: {}
+[65.707105] (-) TimerEvent: {}
+[65.808276] (-) TimerEvent: {}
+[65.910997] (-) TimerEvent: {}
+[66.012273] (-) TimerEvent: {}
+[66.113279] (-) TimerEvent: {}
+[66.215773] (-) TimerEvent: {}
+[66.317510] (-) TimerEvent: {}
+[66.420301] (-) TimerEvent: {}
+[66.520891] (-) TimerEvent: {}
+[66.622293] (-) TimerEvent: {}
+[66.723803] (-) TimerEvent: {}
+[66.825663] (-) TimerEvent: {}
+[66.927560] (-) TimerEvent: {}
+[67.028221] (-) TimerEvent: {}
+[67.130255] (-) TimerEvent: {}
+[67.232353] (-) TimerEvent: {}
+[67.335464] (-) TimerEvent: {}
+[67.436027] (-) TimerEvent: {}
+[67.536890] (-) TimerEvent: {}
+[67.639291] (-) TimerEvent: {}
+[67.742296] (-) TimerEvent: {}
+[67.843687] (-) TimerEvent: {}
+[67.945314] (-) TimerEvent: {}
+[68.047886] (-) TimerEvent: {}
+[68.150390] (-) TimerEvent: {}
+[68.251381] (-) TimerEvent: {}
+[68.352348] (-) TimerEvent: {}
+[68.455287] (-) TimerEvent: {}
+[68.556512] (-) TimerEvent: {}
+[68.661291] (-) TimerEvent: {}
+[68.764457] (-) TimerEvent: {}
+[68.865361] (-) TimerEvent: {}
+[68.967295] (-) TimerEvent: {}
+[69.070303] (-) TimerEvent: {}
+[69.172277] (-) TimerEvent: {}
+[69.274583] (-) TimerEvent: {}
+[69.375282] (-) TimerEvent: {}
+[69.478291] (-) TimerEvent: {}
+[69.578923] (-) TimerEvent: {}
+[69.679965] (-) TimerEvent: {}
+[69.781875] (-) TimerEvent: {}
+[69.883015] (-) TimerEvent: {}
+[69.985294] (-) TimerEvent: {}
+[70.087283] (-) TimerEvent: {}
+[70.187931] (-) TimerEvent: {}
+[70.290389] (-) TimerEvent: {}
+[70.391830] (-) TimerEvent: {}
+[70.494756] (-) TimerEvent: {}
+[70.595879] (-) TimerEvent: {}
+[70.698290] (-) TimerEvent: {}
+[70.799291] (-) TimerEvent: {}
+[70.901787] (-) TimerEvent: {}
+[71.003269] (-) TimerEvent: {}
+[71.105298] (-) TimerEvent: {}
+[71.205963] (-) TimerEvent: {}
+[71.308293] (-) TimerEvent: {}
+[71.410295] (-) TimerEvent: {}
+[71.513296] (-) TimerEvent: {}
+[71.613949] (-) TimerEvent: {}
+[71.714979] (-) TimerEvent: {}
+[71.816851] (-) TimerEvent: {}
+[71.920279] (-) TimerEvent: {}
+[72.020905] (-) TimerEvent: {}
+[72.124299] (-) TimerEvent: {}
+[72.224977] (-) TimerEvent: {}
+[72.326282] (-) TimerEvent: {}
+[72.428282] (-) TimerEvent: {}
+[72.531406] (-) TimerEvent: {}
+[72.632179] (-) TimerEvent: {}
+[72.735288] (-) TimerEvent: {}
+[72.835941] (-) TimerEvent: {}
+[72.938279] (-) TimerEvent: {}
+[73.041444] (-) TimerEvent: {}
+[73.142080] (-) TimerEvent: {}
+[73.244293] (-) TimerEvent: {}
+[73.344951] (-) TimerEvent: {}
+[73.447376] (-) TimerEvent: {}
+[73.550283] (-) TimerEvent: {}
+[73.650908] (-) TimerEvent: {}
+[73.752235] (-) TimerEvent: {}
+[73.854284] (-) TimerEvent: {}
+[73.956297] (-) TimerEvent: {}
+[74.057254] (-) TimerEvent: {}
+[74.160507] (-) TimerEvent: {}
+[74.263299] (-) TimerEvent: {}
+[74.363947] (-) TimerEvent: {}
+[74.466806] (-) TimerEvent: {}
+[74.569282] (-) TimerEvent: {}
+[74.669905] (-) TimerEvent: {}
+[74.771743] (-) TimerEvent: {}
+[74.875281] (-) TimerEvent: {}
+[74.977301] (-) TimerEvent: {}
+[75.080276] (-) TimerEvent: {}
+[75.180877] (-) TimerEvent: {}
+[75.282556] (-) TimerEvent: {}
+[75.385280] (-) TimerEvent: {}
+[75.485874] (-) TimerEvent: {}
+[75.588802] (-) TimerEvent: {}
+[75.691289] (-) TimerEvent: {}
+[75.791919] (-) TimerEvent: {}
+[75.894476] (-) TimerEvent: {}
+[75.996274] (-) TimerEvent: {}
+[76.099298] (-) TimerEvent: {}
+[76.199953] (-) TimerEvent: {}
+[76.302533] (-) TimerEvent: {}
+[76.404283] (-) TimerEvent: {}
+[76.505900] (-) TimerEvent: {}
+[76.609295] (-) TimerEvent: {}
+[76.713285] (-) TimerEvent: {}
+[76.813911] (-) TimerEvent: {}
+[76.916290] (-) TimerEvent: {}
+[77.018287] (-) TimerEvent: {}
+[77.121294] (-) TimerEvent: {}
+[77.221928] (-) TimerEvent: {}
+[77.325007] (-) TimerEvent: {}
+[77.426673] (-) TimerEvent: {}
+[77.529293] (-) TimerEvent: {}
+[77.629899] (-) TimerEvent: {}
+[77.732815] (-) TimerEvent: {}
+[77.834277] (-) TimerEvent: {}
+[77.936266] (-) TimerEvent: {}
+[78.038168] (-) TimerEvent: {}
+[78.140290] (-) TimerEvent: {}
+[78.242672] (-) TimerEvent: {}
+[78.346299] (-) TimerEvent: {}
+[78.446885] (-) TimerEvent: {}
+[78.549601] (-) TimerEvent: {}
+[78.655088] (-) TimerEvent: {}
+[78.757505] (-) TimerEvent: {}
+[78.858442] (-) TimerEvent: {}
+[78.960731] (-) TimerEvent: {}
+[79.062277] (-) TimerEvent: {}
+[79.164285] (-) TimerEvent: {}
+[79.267270] (-) TimerEvent: {}
+[79.368785] (-) TimerEvent: {}
+[79.471274] (-) TimerEvent: {}
+[79.572386] (-) TimerEvent: {}
+[79.673471] (-) TimerEvent: {}
+[79.776318] (-) TimerEvent: {}
+[79.878517] (-) TimerEvent: {}
+[79.980291] (-) TimerEvent: {}
+[80.082746] (-) TimerEvent: {}
+[80.187283] (-) TimerEvent: {}
+[80.288294] (-) TimerEvent: {}
+[80.389160] (-) TimerEvent: {}
+[80.490180] (-) TimerEvent: {}
+[80.592428] (-) TimerEvent: {}
+[80.693047] (-) TimerEvent: {}
+[80.795283] (-) TimerEvent: {}
+[80.895882] (-) TimerEvent: {}
+[80.998291] (-) TimerEvent: {}
+[81.099173] (-) TimerEvent: {}
+[81.202273] (-) TimerEvent: {}
+[81.304272] (-) TimerEvent: {}
+[81.404868] (-) TimerEvent: {}
+[81.505736] (-) TimerEvent: {}
+[81.608276] (-) TimerEvent: {}
+[81.709392] (-) TimerEvent: {}
+[81.810351] (-) TimerEvent: {}
+[81.913905] (-) TimerEvent: {}
+[82.014947] (-) TimerEvent: {}
+[82.115956] (-) TimerEvent: {}
+[82.216944] (-) TimerEvent: {}
+[82.319491] (-) TimerEvent: {}
+[82.420471] (-) TimerEvent: {}
+[82.521234] (-) TimerEvent: {}
+[82.622877] (-) TimerEvent: {}
+[82.724275] (-) TimerEvent: {}
+[82.827278] (-) TimerEvent: {}
+[82.927874] (-) TimerEvent: {}
+[83.029043] (-) TimerEvent: {}
+[83.129684] (-) TimerEvent: {}
+[83.231283] (-) TimerEvent: {}
+[83.333280] (-) TimerEvent: {}
+[83.433874] (-) TimerEvent: {}
+[83.534838] (-) TimerEvent: {}
+[83.637285] (-) TimerEvent: {}
+[83.739411] (-) TimerEvent: {}
+[83.841278] (-) TimerEvent: {}
+[83.943295] (-) TimerEvent: {}
+[84.044959] (-) TimerEvent: {}
+[84.149298] (-) TimerEvent: {}
+[84.249935] (-) TimerEvent: {}
+[84.351545] (-) TimerEvent: {}
+[84.454032] (-) TimerEvent: {}
+[84.556268] (-) TimerEvent: {}
+[84.657987] (-) TimerEvent: {}
+[84.760281] (-) TimerEvent: {}
+[84.863268] (-) TimerEvent: {}
+[84.964572] (-) TimerEvent: {}
+[85.067490] (-) TimerEvent: {}
+[85.171294] (-) TimerEvent: {}
+[85.272013] (-) TimerEvent: {}
+[85.376529] (-) TimerEvent: {}
+[85.483086] (-) TimerEvent: {}
+[85.585394] (-) TimerEvent: {}
+[85.688684] (-) TimerEvent: {}
+[85.790268] (-) TimerEvent: {}
+[85.891110] (-) TimerEvent: {}
+[85.991709] (-) TimerEvent: {}
+[86.092678] (-) TimerEvent: {}
+[86.196236] (-) TimerEvent: {}
+[86.297493] (-) TimerEvent: {}
+[86.398095] (-) TimerEvent: {}
+[86.500444] (-) TimerEvent: {}
+[86.601293] (-) TimerEvent: {}
+[86.702137] (-) TimerEvent: {}
+[86.804118] (-) TimerEvent: {}
+[86.905610] (-) TimerEvent: {}
+[87.008266] (-) TimerEvent: {}
+[87.108900] (-) TimerEvent: {}
+[87.209515] (-) TimerEvent: {}
+[87.310678] (-) TimerEvent: {}
+[87.415271] (-) TimerEvent: {}
+[87.515858] (-) TimerEvent: {}
+[87.617283] (-) TimerEvent: {}
+[87.717883] (-) TimerEvent: {}
+[87.819284] (-) TimerEvent: {}
+[87.921440] (-) TimerEvent: {}
+[88.022527] (-) TimerEvent: {}
+[88.123615] (-) TimerEvent: {}
+[88.225861] (-) TimerEvent: {}
+[88.326435] (-) TimerEvent: {}
+[88.429553] (-) TimerEvent: {}
+[88.530374] (-) TimerEvent: {}
+[88.631485] (-) TimerEvent: {}
+[88.734356] (-) TimerEvent: {}
+[88.837274] (-) TimerEvent: {}
+[88.938310] (-) TimerEvent: {}
+[89.040546] (-) TimerEvent: {}
+[89.141162] (-) TimerEvent: {}
+[89.243276] (-) TimerEvent: {}
+[89.344093] (-) TimerEvent: {}
+[89.444698] (-) TimerEvent: {}
+[89.546996] (-) TimerEvent: {}
+[89.650282] (-) TimerEvent: {}
+[89.751283] (-) TimerEvent: {}
+[89.852291] (-) TimerEvent: {}
+[89.953296] (-) TimerEvent: {}
+[90.054463] (-) TimerEvent: {}
+[90.157623] (-) TimerEvent: {}
+[90.258722] (-) TimerEvent: {}
+[90.359774] (-) TimerEvent: {}
+[90.461943] (-) TimerEvent: {}
+[90.563058] (-) TimerEvent: {}
+[90.665479] (-) TimerEvent: {}
+[90.768270] (-) TimerEvent: {}
+[90.868850] (-) TimerEvent: {}
+[90.970397] (-) TimerEvent: {}
+[91.019435] (xolobot_arm_server) StdoutLine: {'line': b'[100%] Built target xolobot_arm_server\n'}
+[91.061273] (xolobot_arm_server) CommandEnded: {'returncode': 0}
+[91.067688] (xolobot_arm_server) JobProgress: {'identifier': 'xolobot_arm_server', 'progress': 'install'}
+[91.068067] (xolobot_arm_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monica/ros2_pelota/build/xolobot_arm_server'], 'cwd': '/home/monica/ros2_pelota/build/xolobot_arm_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'monica'), ('LC_TIME', 'en_US.UTF-8'), ('ROS_PACKAGE_PATH', '/opt/ros/iron/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib'), ('HOME', '/home/monica'), ('OLDPWD', '/home/monica'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1416'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/monica/ros2_pelota/install:/home/monica/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'monica'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'monica'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/lib/jvm/java-17-openjdk-amd64/bin:/opt/ros/iron/bin:/home/monica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/monica/bin'), ('SESSION_MANAGER', 'local/monica-Lenovo-Ideapad-S145-14IGM:@/tmp/.ICE-unix/1387,unix/monica-Lenovo-Ideapad-S145-14IGM:/tmp/.ICE-unix/1387'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1514b21_3f80_46a2_9f7e_2b240a348518'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B6TA82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/monica/ros2_ws/src/xolobot_arm/models:'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/monica/ros2_pelota/build/xolobot_arm_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/iron/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron')]), 'shell': False}
+[91.072559] (-) TimerEvent: {}
+[91.098748] (xolobot_arm_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[91.103659] (xolobot_arm_server) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/xolobot_arm_server/lib/xolobot_arm_server/xolobot_arm_server\n'}
+[91.170505] (xolobot_arm_server) StdoutLine: {'line': b'-- Set runtime path of "/home/monica/ros2_pelota/install/xolobot_arm_server/lib/xolobot_arm_server/xolobot_arm_server" to ""\n'}
+[91.170934] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/ament_index/resource_index/package_run_dependencies/xolobot_arm_server\n'}
+[91.173642] (-) TimerEvent: {}
+[91.176328] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/ament_index/resource_index/parent_prefix_path/xolobot_arm_server\n'}
+[91.176675] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/environment/ament_prefix_path.sh\n'}
+[91.176961] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/environment/ament_prefix_path.dsv\n'}
+[91.179554] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/environment/path.sh\n'}
+[91.179865] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/environment/path.dsv\n'}
+[91.180121] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/local_setup.bash\n'}
+[91.180442] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/local_setup.sh\n'}
+[91.180695] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/local_setup.zsh\n'}
+[91.180941] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/local_setup.dsv\n'}
+[91.185295] (xolobot_arm_server) StdoutLine: {'line': b'-- Installing: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.dsv\n'}
+[91.185669] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/ament_index/resource_index/packages/xolobot_arm_server\n'}
+[91.185922] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/cmake/xolobot_arm_serverConfig.cmake\n'}
+[91.186183] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/cmake/xolobot_arm_serverConfig-version.cmake\n'}
+[91.186441] (xolobot_arm_server) StdoutLine: {'line': b'-- Up-to-date: /home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.xml\n'}
+[91.192687] (xolobot_arm_server) CommandEnded: {'returncode': 0}
+[91.250122] (xolobot_arm_server) JobEnded: {'identifier': 'xolobot_arm_server', 'rc': 0}
+[91.254290] (-) EventReactorShutdown: {}

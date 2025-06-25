@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name="soporteInvisible">
+    <static>true</static>
+    <pose>0.204899 0.260207 0.768140 0 0 0</pose>
+    <link name="link">
+
+      <!-- Piso -->
+      <collision name="collision_floor">
+        <geometry>
+          <box>
+            <size>0.276076 0.346434 0.030000</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual_floor">
+        <geometry>
+          <box>
+            <size>0.276076 0.346434 0.030000</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Pared izquierda -->
+      <collision name="collision_wall_left">
+        <pose>-0.138 0 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.346434 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual_wall_left">
+        <pose>-0.138 0 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.346434 0.12</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Pared derecha -->
+      <collision name="collision_wall_right">
+        <pose>0.138 0 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.346434 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual_wall_right">
+        <pose>0.138 0 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.346434 0.12</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Pared trasera -->
+      <collision name="collision_wall_back">
+        <pose>0 -0.173 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.276076 0.01 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual_wall_back">
+        <pose>0 -0.173 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.276076 0.01 0.12</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <!-- Pared delantera -->
+      <collision name="collision_wall_front">
+        <pose>0 0.173 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.276076 0.01 0.12</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual_wall_front">
+        <pose>0 0.173 0.06 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.276076 0.01 0.12</size>
+          </box>
+        </geometry>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

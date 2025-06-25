@@ -1,0 +1,264 @@
+[0.035s] Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/monica/ros2_pelota/src/xolobot_arm -DCMAKE_INSTALL_PREFIX=/home/monica/ros2_pelota/install/xolobot_arm
+[0.604s] -- The C compiler identification is GNU 11.4.0
+[0.894s] -- The CXX compiler identification is GNU 11.4.0
+[0.920s] -- Detecting C compiler ABI info
+[1.122s] -- Detecting C compiler ABI info - done
+[1.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.140s] -- Detecting C compile features
+[1.142s] -- Detecting C compile features - done
+[1.150s] -- Detecting CXX compiler ABI info
+[1.369s] -- Detecting CXX compiler ABI info - done
+[1.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.389s] -- Detecting CXX compile features
+[1.390s] -- Detecting CXX compile features - done
+[1.399s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.842s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.089s] -- Found robot_state_publisher: 3.2.1 (/opt/ros/iron/share/robot_state_publisher/cmake)
+[2.213s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.260s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.865s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.869s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.869s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.416s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.424s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.798s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.899s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.590s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[6.633s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.642s] -- Checking for module 'bullet>=2.82'
+[6.681s] --   Found bullet, version 3.05
+[7.001s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.181s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.318s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.871s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[7.982s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.005s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.043s] -- Searching for dependencies of ignition-math6
+[8.052s] -- Looking for OGRE...
+[8.052s] -- OGRE_PREFIX_WATCH changed.
+[8.063s] -- Checking for module 'OGRE'
+[8.101s] --   Found OGRE, version 1.9.0
+[8.196s] -- Found Ogre Ghadamon (1.9.0)
+[8.221s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.240s] -- Looking for OGRE_Paging...
+[8.254s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.255s] -- Looking for OGRE_Terrain...
+[8.271s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.272s] -- Looking for OGRE_Property...
+[8.292s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.293s] -- Looking for OGRE_RTShaderSystem...
+[8.310s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.310s] -- Looking for OGRE_Volume...
+[8.326s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.327s] -- Looking for OGRE_Overlay...
+[8.343s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.763s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.772s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.775s] -- Searching for dependencies of ignition-transport8
+[8.822s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.846s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.857s] -- Checking for module 'libzmq >= 4'
+[8.900s] --   Found libzmq , version 4.3.4
+[8.994s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[9.008s] -- Checking for module 'uuid'
+[9.041s] --   Found uuid, version 2.37.2
+[9.123s] -- Found UUID: TRUE  
+[9.131s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.131s] -- Searching for dependencies of ignition-msgs5
+[9.173s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.195s] -- Checking for module 'tinyxml2'
+[9.259s] --   Found tinyxml2, version 9.0.0
+[9.348s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.356s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.357s] -- Searching for dependencies of ignition-common3
+[9.359s] -- Looking for dlfcn.h - found
+[9.360s] -- Looking for libdl - found
+[9.363s] -- Found DL: TRUE  
+[9.395s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[9.397s] -- Searching for <ignition-common3> component [graphics]
+[9.405s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[9.407s] -- Searching for dependencies of ignition-common3-graphics
+[9.408s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.419s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[9.419s] -- Searching for dependencies of ignition-fuel_tools4
+[9.619s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[9.647s] -- Checking for module 'jsoncpp'
+[9.688s] --   Found jsoncpp, version 1.9.5
+[9.782s] -- Found JSONCPP: TRUE  
+[9.800s] -- Checking for module 'libzip'
+[9.840s] --   Found libzip, version 1.7.3
+[9.937s] -- Found ZIP: TRUE  
+[9.937s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.938s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.939s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.958s] -- Gazebo version: 11.10
+[9.959s] -- Checking for module 'tbb'
+[10.002s] --   Found tbb, version 2021.5.0
+[10.152s] -- Found controller_manager: 3.30.0 (/opt/ros/iron/share/controller_manager/cmake)
+[13.929s] -- Found ros2_controllers: 3.28.0 (/opt/ros/iron/share/ros2_controllers/cmake)
+[14.152s] -- Configuring done
+[14.184s] -- Generating done
+[14.195s] -- Build files have been written to: /home/monica/ros2_pelota/build/xolobot_arm
+[14.250s] Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/monica/ros2_pelota/src/xolobot_arm -DCMAKE_INSTALL_PREFIX=/home/monica/ros2_pelota/install/xolobot_arm
+[14.258s] Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm -- -j2 -l2
+[14.412s] Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm -- -j2 -l2
+[14.441s] Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm
+[14.470s] -- Install configuration: ""
+[14.471s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/launch
+[14.472s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/launch/xolobot_arm_control.launch.py
+[14.474s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/worlds
+[14.476s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/worlds/coca_levitando.world
+[14.477s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models
+[14.479s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/xolobot.urdf
+[14.480s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/model.config
+[14.481s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria
+[14.482s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/objeto.sdf
+[14.483s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/model.config
+[14.484s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/objeto2.sdf
+[14.485s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/soporte.sdf
+[14.485s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/utileria/soporte2.sdf
+[14.486s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures
+[14.487s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/metal.material
+[14.488s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images
+[14.489s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/metal-rosa.jpg
+[14.491s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/metal-hoyos.jpg
+[14.494s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/blue-metal.jpg
+[14.494s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/rose-gold.jpg
+[14.496s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/piso-metal-barras.jpg
+[14.498s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/images/piso-metal-blanco.jpg
+[14.505s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/model.config
+[14.506s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/textures/xolobot.material
+[14.506s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/xolobot_arm.sdf
+[14.508s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes
+[14.509s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_2.dae
+[14.512s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq_2.dae
+[15.057s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_juntos.dae
+[15.142s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_der.dae
+[15.230s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_izq.dae
+[15.306s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/banda.blend
+[15.389s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_juntos_nuevo.dae
+[15.507s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izqprueba.dae
+[16.006s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq_bak.dae
+[16.515s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/mono.dae
+[16.517s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_alto.dae
+[16.525s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq_colision.dae
+[16.526s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_alto_colision.dae
+[16.527s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/model.config
+[16.528s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/alien.dae
+[16.550s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/antebrazo_mano_izq.dae
+[16.617s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq.dae
+[16.727s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/biceps_izq_colision.dae
+[16.728s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup
+[16.728s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_2.dae
+[16.731s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_juntos.dae
+[16.816s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_der.dae
+[16.903s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_izq.dae
+[17.062s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/biceps_juntos_nuevo.dae
+[17.204s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/hombro_alto.dae
+[17.228s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/antebrazo_mano_izq.dae
+[17.719s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/codo_izq.dae
+[17.755s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/hombro_bajo.dae
+[17.833s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos
+[17.834s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice.blend1
+[17.875s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_1.dae
+[17.878s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.blend
+[17.885s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_2.dae
+[17.887s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial.blend
+[17.911s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.blend1
+[17.949s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_2.dae
+[17.952s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_1.dae
+[17.956s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique.blend
+[17.978s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.blend1
+[18.008s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.dae
+[18.021s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_1.dae
+[18.024s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.dae
+[18.042s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial_3.dae
+[18.061s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/mano_completa.blend
+[18.606s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique.blend1
+[18.682s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_2.blend
+[18.689s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular.blend1
+[18.715s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.blend1
+[18.736s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_3.blend
+[18.758s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_menique_1.dae
+[18.761s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular.blend
+[18.781s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice.blend
+[18.808s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/mano_completa.blend1
+[19.118s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_3.dae
+[19.136s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_anular_2.dae
+[19.140s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_cordial.blend1
+[19.160s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/dedos/dedo_indice_3.dae
+[19.187s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_1_izq.dae
+[19.245s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/backup/pulgar_3.dae
+[19.326s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_bajo.dae
+[19.381s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos
+[19.382s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_2.dae
+[19.384s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_1_izq_colision.dae
+[19.386s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3_colision.dae
+[19.387s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice.blend1
+[19.409s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_3_colision.dae
+[19.410s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_3_colision.dae
+[19.410s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_1.dae
+[19.412s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2_colision.dae
+[19.413s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.blend
+[19.423s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_2.dae
+[19.426s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_3_colision.dae
+[19.427s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial.blend
+[19.444s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.blend1
+[19.463s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_2.dae
+[19.466s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_1.dae
+[19.469s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique.blend
+[19.488s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_1_colision.dae
+[19.489s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.blend1
+[19.513s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.dae
+[19.519s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_1.dae
+[19.522s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_1_colision.dae
+[19.523s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1_colision.dae
+[19.525s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.dae
+[19.539s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_3_colision.dae
+[19.541s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_1_colision.dae
+[19.542s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_3.dae
+[19.557s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_1_izq.dae
+[19.569s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/mano_completa.blend
+[20.093s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique.blend1
+[20.166s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_2.blend
+[20.179s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_2_colision.dae
+[20.181s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular.blend1
+[20.204s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial_2_colision.dae
+[20.205s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.blend1
+[20.238s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_3.dae
+[20.253s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_3.blend
+[20.267s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_menique_1.dae
+[20.271s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular.blend
+[20.294s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice.blend
+[20.317s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/mano_completa.blend1
+[20.862s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_3.dae
+[20.883s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_2.dae
+[20.885s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_cordial.blend1
+[20.913s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/pulgar_2_colision.dae
+[20.917s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_anular_2_colision.dae
+[20.919s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/dedos/dedo_indice_3.dae
+[20.937s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_1_izq.dae
+[20.946s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/codo_izq_tuercas.dae
+[20.972s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/hombro_bajo_colision.dae
+[20.983s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/pulgar_3.dae
+[21.000s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/banda_terminada.blend
+[21.172s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/models/meshes/palma.dae
+[21.610s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/package_run_dependencies/xolobot_arm
+[21.611s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/parent_prefix_path/xolobot_arm
+[21.612s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/ament_prefix_path.sh
+[21.615s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/ament_prefix_path.dsv
+[21.616s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/path.sh
+[21.618s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/environment/path.dsv
+[21.619s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.bash
+[21.624s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.sh
+[21.626s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.zsh
+[21.628s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/local_setup.dsv
+[21.630s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.dsv
+[21.631s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/ament_index/resource_index/packages/xolobot_arm
+[21.632s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/cmake/xolobot_armConfig.cmake
+[21.633s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/cmake/xolobot_armConfig-version.cmake
+[21.635s] -- Installing: /home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.xml
+[21.640s] Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm

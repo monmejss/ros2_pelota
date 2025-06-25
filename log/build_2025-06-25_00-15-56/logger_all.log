@@ -1,0 +1,418 @@
+[0.712s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.712s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fec94e56b30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fec94e56650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fec94e56650>>, mixin_verb=('build',))
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.911s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/monica/ros2_pelota'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_pkg']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_pkg'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extensions ['ros']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkattacher_msgs) by extension 'ros'
+[2.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extension 'ignore'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extension 'ignore_ament_install'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extensions ['colcon_pkg']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extension 'colcon_pkg'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extensions ['colcon_meta']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extension 'colcon_meta'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extensions ['ros']
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_linkattacher) by extension 'ros'
+[2.061s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_linkattacher' with type 'ros.ament_cmake' and name 'ros2_linkattacher'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extensions ['ignore', 'ignore_ament_install']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extension 'ignore'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extension 'ignore_ament_install'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extensions ['colcon_pkg']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extension 'colcon_pkg'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extensions ['colcon_meta']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extension 'colcon_meta'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extensions ['ros']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm) by extension 'ros'
+[2.069s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xolobot_arm' with type 'ros.ament_cmake' and name 'xolobot_arm'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extensions ['ignore', 'ignore_ament_install']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extension 'ignore_ament_install'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extensions ['colcon_pkg']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extension 'colcon_pkg'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extensions ['colcon_meta']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extension 'colcon_meta'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extensions ['ros']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_arm_server) by extension 'ros'
+[2.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xolobot_arm_server' with type 'ros.ament_cmake' and name 'xolobot_arm_server'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extensions ['ignore', 'ignore_ament_install']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extension 'ignore'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extension 'ignore_ament_install'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extensions ['colcon_pkg']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extension 'colcon_pkg'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extensions ['colcon_meta']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extension 'colcon_meta'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extensions ['ros']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/xolobot_control) by extension 'ros'
+[2.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xolobot_control' with type 'ros.ament_cmake' and name 'xolobot_control'
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/monica/ros2_pelota/install
+[2.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/monica/ros2_ws/install
+[2.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/iron
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[2.608s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.609s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.609s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monica/ros2_pelota/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monica/ros2_pelota/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/monica/ros2_pelota/src/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_target' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.613s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monica/ros2_pelota/build/xolobot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monica/ros2_pelota/install/xolobot_arm', 'merge_install': False, 'path': '/home/monica/ros2_pelota/src/xolobot_arm', 'symlink_install': False, 'test_result_base': None}
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_args' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_target' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'xolobot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.616s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monica/ros2_pelota/build/xolobot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monica/ros2_pelota/install/xolobot_control', 'merge_install': False, 'path': '/home/monica/ros2_pelota/src/xolobot_control', 'symlink_install': False, 'test_result_base': None}
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_args' from command line to 'None'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target' from command line to 'None'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_clean_first' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'cmake_force_configure' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'ament_cmake_args' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'ros2_linkattacher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.619s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_linkattacher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monica/ros2_pelota/build/ros2_linkattacher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monica/ros2_pelota/install/ros2_linkattacher', 'merge_install': False, 'path': '/home/monica/ros2_pelota/src/ros2_linkattacher', 'symlink_install': False, 'test_result_base': None}
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_args' from command line to 'None'
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_target' from command line to 'None'
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_clean_cache' from command line to 'False'
+[2.621s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_clean_first' from command line to 'False'
+[2.622s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'cmake_force_configure' from command line to 'False'
+[2.622s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'ament_cmake_args' from command line to 'None'
+[2.622s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'catkin_cmake_args' from command line to 'None'
+[2.622s] Level 5:colcon.colcon_core.verb:set package 'xolobot_arm_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.622s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_arm_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monica/ros2_pelota/build/xolobot_arm_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monica/ros2_pelota/install/xolobot_arm_server', 'merge_install': False, 'path': '/home/monica/ros2_pelota/src/xolobot_arm_server', 'symlink_install': False, 'test_result_base': None}
+[2.623s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monica/ros2_pelota/src/linkattacher_msgs' with build type 'ament_cmake'
+[2.628s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monica/ros2_pelota/src/linkattacher_msgs'
+[2.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monica/ros2_pelota/src/xolobot_arm' with build type 'ament_cmake'
+[2.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monica/ros2_pelota/src/xolobot_arm'
+[2.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/linkattacher_msgs -- -j2 -l2
+[2.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm -- -j2 -l2
+[3.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm -- -j2 -l2
+[3.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm
+[3.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_arm)
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm' for CMake module files
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm' for CMake config files
+[3.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_arm', 'cmake_prefix_path')
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.ps1'
+[3.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.dsv'
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.sh'
+[3.641s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/bin'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/lib/pkgconfig/xolobot_arm.pc'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/lib/python3.10/site-packages'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/bin'
+[3.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.ps1'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.dsv'
+[3.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.sh'
+[3.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.bash'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.zsh'
+[3.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_arm/share/colcon-core/packages/xolobot_arm)
+[3.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_arm)
+[3.712s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm' for CMake module files
+[3.715s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm' for CMake config files
+[3.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_arm', 'cmake_prefix_path')
+[3.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.ps1'
+[3.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.dsv'
+[3.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/hook/cmake_prefix_path.sh'
+[3.742s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/bin'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/lib/pkgconfig/xolobot_arm.pc'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/lib/python3.10/site-packages'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm/bin'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.dsv'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.sh'
+[3.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm
+[3.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.bash'
+[3.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm/share/xolobot_arm/package.zsh'
+[3.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_arm/share/colcon-core/packages/xolobot_arm)
+[3.789s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monica/ros2_pelota/src/xolobot_control' with build type 'ament_cmake'
+[3.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monica/ros2_pelota/src/xolobot_control'
+[3.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_control -- -j2 -l2
+[4.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_control -- -j2 -l2
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_control
+[4.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_control)
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control' for CMake module files
+[4.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_control
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control' for CMake config files
+[4.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_control', 'cmake_prefix_path')
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.dsv'
+[4.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.sh'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/bin'
+[4.412s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/lib/pkgconfig/xolobot_control.pc'
+[4.417s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/lib/python3.10/site-packages'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/bin'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.ps1'
+[4.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.dsv'
+[4.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.sh'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.bash'
+[4.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.zsh'
+[4.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_control/share/colcon-core/packages/xolobot_control)
+[4.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_control)
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control' for CMake module files
+[4.463s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control' for CMake config files
+[4.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_control', 'cmake_prefix_path')
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.dsv'
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/hook/cmake_prefix_path.sh'
+[4.479s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/bin'
+[4.479s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/lib/pkgconfig/xolobot_control.pc'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/lib/python3.10/site-packages'
+[4.487s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_control/bin'
+[4.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.ps1'
+[4.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.dsv'
+[4.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.sh'
+[4.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.bash'
+[4.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_control/share/xolobot_control/package.zsh'
+[4.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_control/share/colcon-core/packages/xolobot_control)
+[7.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/monica/ros2_pelota/build/linkattacher_msgs -- -j2 -l2
+[7.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/linkattacher_msgs
+[8.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs' for CMake module files
+[8.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/monica/ros2_pelota/build/linkattacher_msgs
+[8.166s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs' for CMake config files
+[8.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[8.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[8.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[8.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib'
+[8.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[8.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[8.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[8.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[8.194s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/bin'
+[8.194s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[8.195s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages'
+[8.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'pythonpath')
+[8.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.ps1'
+[8.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.dsv'
+[8.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.sh'
+[8.207s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/bin'
+[8.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[8.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[8.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[8.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[8.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[8.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[8.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[8.229s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs' for CMake module files
+[8.235s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs' for CMake config files
+[8.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[8.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[8.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[8.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[8.251s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib'
+[8.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[8.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[8.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[8.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[8.261s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/bin'
+[8.263s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[8.264s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/lib/python3.10/site-packages'
+[8.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'pythonpath')
+[8.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.ps1'
+[8.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.dsv'
+[8.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/hook/pythonpath.sh'
+[8.274s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/linkattacher_msgs/bin'
+[8.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[8.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[8.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[8.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[8.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[8.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[8.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monica/ros2_pelota/src/ros2_linkattacher' with build type 'ament_cmake'
+[8.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monica/ros2_pelota/src/ros2_linkattacher'
+[8.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monica/ros2_pelota/src/xolobot_arm_server' with build type 'ament_cmake'
+[8.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monica/ros2_pelota/src/xolobot_arm_server'
+[8.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --build /home/monica/ros2_pelota/build/ros2_linkattacher -- -j2 -l2
+[8.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm_server': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm_server -- -j2 -l2
+[9.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --build /home/monica/ros2_pelota/build/ros2_linkattacher -- -j2 -l2
+[9.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/ros2_linkattacher': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --install /home/monica/ros2_pelota/build/ros2_linkattacher
+[9.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[9.415s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher' for CMake module files
+[9.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/ros2_linkattacher' returned '0': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --install /home/monica/ros2_pelota/build/ros2_linkattacher
+[9.423s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher' for CMake config files
+[9.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[9.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[9.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[9.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[9.441s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib'
+[9.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[9.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[9.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[9.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[9.456s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/bin'
+[9.456s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[9.459s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib/python3.10/site-packages'
+[9.460s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/bin'
+[9.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[9.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[9.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[9.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[9.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[9.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[9.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_linkattacher)
+[9.490s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher' for CMake module files
+[9.493s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher' for CMake config files
+[9.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'cmake_prefix_path')
+[9.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.ps1'
+[9.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.dsv'
+[9.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/cmake_prefix_path.sh'
+[9.512s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib'
+[9.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_linkattacher', 'ld_library_path_lib')
+[9.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.ps1'
+[9.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.dsv'
+[9.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/hook/ld_library_path_lib.sh'
+[9.519s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/bin'
+[9.520s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib/pkgconfig/ros2_linkattacher.pc'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/lib/python3.10/site-packages'
+[9.521s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/ros2_linkattacher/bin'
+[9.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.ps1'
+[9.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv'
+[9.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.sh'
+[9.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.bash'
+[9.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/ros2_linkattacher/share/ros2_linkattacher/package.zsh'
+[9.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/ros2_linkattacher/share/colcon-core/packages/ros2_linkattacher)
+[86.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm_server' returned '0': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --build /home/monica/ros2_pelota/build/xolobot_arm_server -- -j2 -l2
+[86.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monica/ros2_pelota/build/xolobot_arm_server': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm_server
+[86.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_arm_server)
+[86.180s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server' for CMake module files
+[86.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monica/ros2_pelota/build/xolobot_arm_server' returned '0': CMAKE_PREFIX_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs:/home/monica/ros2_pelota/install/xolobot_control:/home/monica/ros2_pelota/install/xolobot_arm_server:/home/monica/ros2_pelota/install/xolobot_arm:/home/monica/ros2_pelota/install/ros2_linkattacher:/home/monica/ros2_ws/install/xolobot_control:/home/monica/ros2_ws/install/xolobot_arm_server:/home/monica/ros2_ws/install/xolobot_arm:/opt/ros/iron LD_LIBRARY_PATH=/home/monica/ros2_pelota/install/linkattacher_msgs/lib:/home/monica/ros2_pelota/install/ros2_linkattacher/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/opt/ros/iron/lib /usr/bin/cmake --install /home/monica/ros2_pelota/build/xolobot_arm_server
+[86.184s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server' for CMake config files
+[86.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_arm_server', 'cmake_prefix_path')
+[86.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.ps1'
+[86.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.dsv'
+[86.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.sh'
+[86.191s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib'
+[86.192s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/bin'
+[86.192s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib/pkgconfig/xolobot_arm_server.pc'
+[86.193s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib/python3.10/site-packages'
+[86.194s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/bin'
+[86.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.ps1'
+[86.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.dsv'
+[86.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.sh'
+[86.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.bash'
+[86.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.zsh'
+[86.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_arm_server/share/colcon-core/packages/xolobot_arm_server)
+[86.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_arm_server)
+[86.207s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server' for CMake module files
+[86.209s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server' for CMake config files
+[86.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('xolobot_arm_server', 'cmake_prefix_path')
+[86.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.ps1'
+[86.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.dsv'
+[86.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/hook/cmake_prefix_path.sh'
+[86.219s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib'
+[86.219s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/bin'
+[86.220s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib/pkgconfig/xolobot_arm_server.pc'
+[86.220s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/lib/python3.10/site-packages'
+[86.221s] Level 1:colcon.colcon_core.environment:checking '/home/monica/ros2_pelota/install/xolobot_arm_server/bin'
+[86.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.ps1'
+[86.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.dsv'
+[86.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.sh'
+[86.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.bash'
+[86.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/monica/ros2_pelota/install/xolobot_arm_server/share/xolobot_arm_server/package.zsh'
+[86.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monica/ros2_pelota/install/xolobot_arm_server/share/colcon-core/packages/xolobot_arm_server)
+[86.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[86.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[86.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[86.235s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[86.278s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[86.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[86.279s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[86.336s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[86.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monica/ros2_pelota/install/local_setup.ps1'
+[86.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monica/ros2_pelota/install/_local_setup_util_ps1.py'
+[86.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monica/ros2_pelota/install/setup.ps1'
+[86.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monica/ros2_pelota/install/local_setup.sh'
+[86.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monica/ros2_pelota/install/_local_setup_util_sh.py'
+[86.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monica/ros2_pelota/install/setup.sh'
+[86.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monica/ros2_pelota/install/local_setup.bash'
+[86.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monica/ros2_pelota/install/setup.bash'
+[86.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monica/ros2_pelota/install/local_setup.zsh'
+[86.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monica/ros2_pelota/install/setup.zsh'
