@@ -1,12 +1,12 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name='alien_model'>
-    <pose>0.240180 0.257115 0.694376 1.522380 0.000022 3.140926</pose>
+    <pose>0.136858 0.259445 0.755916 0.000002 -0.087170 -2.013042</pose>
     <static>false</static>
 
     <link name='link'>
       <inertial>
-        <pose>0 0.017 0.006 0 0 0</pose>
+        <pose>0 0.045 0.001 0 0 0</pose>
         <mass>0.03</mass>
         <inertia>
           <ixx>0.00055575</ixx>
@@ -23,7 +23,7 @@
         <geometry>
           <mesh>
             <uri>/home/monica/ros2_pelota/src/xolobot_arm/models/meshes/alien.dae</uri>
-            <scale>0.004 0.004 0.004</scale>
+            <scale>0.008 0.008 0.008</scale>
           </mesh>
         </geometry>
         <surface>
@@ -48,7 +48,7 @@
         <geometry>
           <mesh>
             <uri>/home/monica/ros2_pelota/src/xolobot_arm/models/meshes/alien.dae</uri>
-            <scale>0.004 0.004 0.004</scale>
+            <scale>0.008 0.008 0.008</scale>
           </mesh>
         </geometry>
         <material>

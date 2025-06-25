@@ -79,6 +79,11 @@ void SimulationController::deteccionColision(const gazebo_msgs::msg::ContactsSta
         colisionDetectada = true;
         RCLCPP_WARN(this->get_logger(),"¡Colision detectada!");
     }
+    if (!temporizadorHombro) {
+        RCLCPP_WARN(this->get_logger(),"¡Temporizador creado!");
+        temporizadorHombro = this->create_wall_timer(
+            std::chrono::seconds(5), std::bind(&SimulationController::moverHombro, this));
+    }
 }
 
 void SimulationController::deteccionColisionPalma(const gazebo_msgs::msg::ContactsState::SharedPtr msg){
@@ -87,11 +92,24 @@ void SimulationController::deteccionColisionPalma(const gazebo_msgs::msg::Contac
         RCLCPP_WARN(this->get_logger(),"¡Colision detectada!");
         agarre_objeto();
     }
+    if (!temporizadorHombro) {
+        RCLCPP_WARN(this->get_logger(),"¡Temporizador creado!");
+        temporizadorHombro = this->create_wall_timer(
+            std::chrono::seconds(5), std::bind(&SimulationController::moverHombro, this));
+    }
 }
 
 void SimulationController::startTrajectory(){
     //RCLCPP_INFO(this->get_logger(), "Iniciando simulacion");
     generaAleatorios(); 
+}
+
+void SimulationController::moverHombro(){
+    if(colisionDetectada){
+        RCLCPP_WARN(this->get_logger(),"¡Moviendo hombro!");
+        jointValues[1]= 0.30;
+        colisionDetectada = false; 
+    }
 }
 
 void SimulationController::agarre_objeto(){
@@ -143,8 +161,11 @@ void SimulationController::generaAleatorios(){
 
     for (size_t i = 0; i < TOTAL_JOINTS; ++i){
         std_msgs::msg::Float64 msg;
+        if(i==1 && colisionDetectada){
+            msg.data = jointValues[1];
+        }
         // jnt_hombro_biceps (índice 2): baja primero, solo una vez
-        if(i == 2 && brazoPosicionado && !colisionDetectada && !hombroBicepsPos){
+        else if(i == 2 && brazoPosicionado && !colisionDetectada && !hombroBicepsPos){
             msg.data = -1.0;
             hombroBicepsPos = true;
         }
@@ -170,53 +191,53 @@ void SimulationController::generaAleatorios(){
         }
         // Pulgar (6-7-8)
         else if(i==6 && colisionDetectada){
-            msg.data = 1.5708; //90°
+            msg.data = 0.80; //46
         }
         else if(i==7 && colisionDetectada){
-            msg.data = 0.2094; //12
+            msg.data = 0.6981; //40
         }
         else if(i==8 && colisionDetectada){
             msg.data = 0.5236; //30
         }
         // Indice (9-10-11)
         else if(i==9 && colisionDetectada){
-            msg.data = 0.80; // 46
+            msg.data = 1.0472; //60
         }
         else if(i==10 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.6981; //40
         }
         else if(i==11 && colisionDetectada){
             msg.data = 0.6981; //40
         }
         // Cordial (12-13-14)
         else if(i==12 && colisionDetectada){
-            msg.data = 1.1345; //65
+            msg.data = 1.0472; //60
         }
         else if(i==13 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.6981; //40
         }
         else if(i==14 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.6981; //40
         }
         // Anular (15-16-17)
         else if(i==15 && colisionDetectada){
-            msg.data = 1.1345; //65
+            msg.data = 0.6981; //40
         }
         else if(i==16 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.4363; //25
         }
         else if(i==17 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.4363; //25
         }
         // Menique (18-19-20)
         else if(i==18 && colisionDetectada){
-            msg.data = 0.80;
+            msg.data = 0.5236; //30
         }
         else if(i==19 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.4363; //25
         }
         else if(i==20 && colisionDetectada){
-            msg.data = 0.6109; //35
+            msg.data = 0.4363; //25
         }
         else{
             msg.data = 0.0;

@@ -61,6 +61,7 @@ private:
     void deteccionColision(const gazebo_msgs::msg::ContactsState::SharedPtr msg);
     void deteccionColisionPalma(const gazebo_msgs::msg::ContactsState::SharedPtr msg);
     void agarre_objeto();
+    void moverHombro();
 
 };
 

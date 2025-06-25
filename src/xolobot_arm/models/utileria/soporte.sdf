@@ -2,21 +2,21 @@
 <sdf version='1.6'>
   <model name="soporteInvisible">
     <static>true</static>
-    <pose>0.240177 0.260207 0.688664 0 0 0</pose>
+    <pose>0.214598 0.230172 0.712561 0 0 0</pose>
     <link name="link">
 
       <!-- Base-->
       <collision name="collision_base">
         <geometry>
           <box>
-            <size>0.078855 0.072973 0.009534</size>
+            <size>0.153821 0.141813 0.009534</size>
           </box>
         </geometry>
       </collision>
       <visual name="visual_base">
         <geometry>
           <box>
-            <size>0.078855 0.072973 0.009534</size>
+            <size>0.153821 0.141813 0.009534</size>
           </box>
         </geometry>
       </visual>
